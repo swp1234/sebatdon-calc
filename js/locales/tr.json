@@ -1,0 +1,92 @@
+{
+  "app": {
+    "title": "Bayram Harcligi Hesaplayici",
+    "subtitle": "Bayramda ne kadar harcilik vermeli?",
+    "loading": "Yukleniyor...",
+    "skipLink": "Icerige atla"
+  },
+  "meta": {
+    "title": "Bayram Harcligi Hesaplayici - Bayram Hediye Rehberi",
+    "description": "Akrabaliga gore uygun harcilik miktarini hesaplayin, toplam harcamayi analiz edin"
+  },
+  "intro": {
+    "title": "Mutlu Yillar!",
+    "desc": "Ne kadar harcilik vermeniz gerektiginden emin degilsiniz? Akrabaliga gore oneriler alin, toplam harcamanizi takip edin ve ulke ortalamasiyla karsilastirin!",
+    "feature1": "Akrabaliga gore onerilen miktarlar",
+    "feature2": "Toplam harcama ve gelir analizi",
+    "feature3": "Ulke ortalamasi karsilastirmasi"
+  },
+  "button": {
+    "start": "Baslat",
+    "add": "Ekle",
+    "showResult": "Sonuclari Gor",
+    "restart": "Yeniden Hesapla"
+  },
+  "relation": {
+    "youngNephew": "Kucuk Cocuk",
+    "niece": "Yegen",
+    "elementary": "Ilkokul",
+    "middle": "Ortaokul",
+    "high": "Lise",
+    "college": "Universite",
+    "parents": "Anne/Baba",
+    "grandparents": "Buyukanne/Dede",
+    "inlaws": "Kayinvalide/Kayinpeder"
+  },
+  "calc": {
+    "addTitle": "Alici Ekle",
+    "nameLabel": "Isim (istege bagli)",
+    "namePlaceholder": "Orn.: Yegen Ali",
+    "relationLabel": "Akrabalik",
+    "amountLabel": "Miktar (KRW)",
+    "hasKids": "Benim de harcilik alan cocuklarim var",
+    "kidsCountLabel": "Cocuk sayisi",
+    "kidsAgeLabel": "Cocuklarin ortalama yasi",
+    "ageYoung": "Okul oncesi (0-6)",
+    "ageElementary": "Ilkokul (7-12)",
+    "ageMiddle": "Ortaokul (13-15)",
+    "ageHigh": "Lise (16-18)",
+    "ageCollege": "Universite (19-24)",
+    "listTitle": "Harcilik Listesi",
+    "emptyList": "Henuz kimse eklenmedi",
+    "totalSpending": "Toplam harcama:",
+    "total": "Toplam Harcama",
+    "income": "Beklenen Gelir",
+    "net": "Net Bakiye",
+    "average": "Ulke Ortalamasi Karsilastirmasi",
+    "you": "Siz",
+    "avgLabel": "Ort.",
+    "aboveAvg": "Ortalamadan {amount} fazla harciyorsunuz!",
+    "belowAvg": "Ortalamadan {amount} az harciyorsunuz!",
+    "exactAvg": "Tam ulke ortalamasindasiniz!",
+    "funFact": "Bu parayla ne alinabilir?",
+    "avgDesc": "2024 Ay Yilbasi ulke ortalamasi harcamasina dayali"
+  },
+  "result": {
+    "title": "Harcilik Analizi",
+    "breakdown": "Akrabaliga Gore Harcama"
+  },
+  "funFact": {
+    "coffee": "{count} fincan kahve",
+    "ramen": "{count} kase ramen",
+    "meal": "{count} restoran yemegi",
+    "movie": "{count} sinema bileti",
+    "shoes": "{count} cift spor ayakkabi",
+    "airpods": "{count} AirPods",
+    "travel": "{count} gidis-donus ucak bileti",
+    "tablet": "{count} tablet",
+    "trip": "{count} yurt disi seyahati",
+    "none": "Alicilar ekleyin!"
+  },
+  "share": {
+    "title": "Sonuclari Paylas",
+    "twitter": "Twitter",
+    "facebook": "Facebook",
+    "copyLink": "Linki Kopyala",
+    "copied": "Kopyalandi!",
+    "twitterText": "Bayram harcilik toplami: {amount}! {count} kisi icin hazirladim"
+  },
+  "footer": {
+    "back": "DopaBrain Ana Sayfa"
+  }
+}

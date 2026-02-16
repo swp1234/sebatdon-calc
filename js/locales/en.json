@@ -1,0 +1,92 @@
+{
+  "app": {
+    "title": "Gift Money Calculator",
+    "subtitle": "How much should you give for the holidays?",
+    "loading": "Loading...",
+    "skipLink": "Skip to content"
+  },
+  "meta": {
+    "title": "Gift Money Calculator - Holiday Cash Gift Guide",
+    "description": "Calculate appropriate gift money amounts by relationship, analyze total spending, and compare with averages"
+  },
+  "intro": {
+    "title": "Happy New Year!",
+    "desc": "Not sure how much gift money to give? Get recommendations by relationship type, track your total spending, and see how you compare to the national average!",
+    "feature1": "Recommended amounts by relationship",
+    "feature2": "Total spending & income analysis",
+    "feature3": "National average comparison"
+  },
+  "button": {
+    "start": "Get Started",
+    "add": "Add",
+    "showResult": "See Results",
+    "restart": "Start Over"
+  },
+  "relation": {
+    "youngNephew": "Toddler",
+    "niece": "Niece/Nephew",
+    "elementary": "Elementary",
+    "middle": "Middle School",
+    "high": "High School",
+    "college": "College",
+    "parents": "Parents",
+    "grandparents": "Grandparents",
+    "inlaws": "In-Laws"
+  },
+  "calc": {
+    "addTitle": "Add Gift Recipient",
+    "nameLabel": "Name (optional)",
+    "namePlaceholder": "e.g. Nephew Jake",
+    "relationLabel": "Relationship",
+    "amountLabel": "Amount (KRW)",
+    "hasKids": "I also have kids who receive gift money",
+    "kidsCountLabel": "Number of kids",
+    "kidsAgeLabel": "Kids' average age group",
+    "ageYoung": "Preschool (0-6)",
+    "ageElementary": "Elementary (7-12)",
+    "ageMiddle": "Middle school (13-15)",
+    "ageHigh": "High school (16-18)",
+    "ageCollege": "College (19-24)",
+    "listTitle": "Gift Money List",
+    "emptyList": "No recipients added yet",
+    "totalSpending": "Total spending:",
+    "total": "Total Expense",
+    "income": "Expected Income",
+    "net": "Net Balance",
+    "average": "National Average Comparison",
+    "you": "You",
+    "avgLabel": "Avg",
+    "aboveAvg": "You're spending {amount} more than average!",
+    "belowAvg": "You're spending {amount} less than average!",
+    "exactAvg": "You're right at the national average!",
+    "funFact": "What could this money buy?",
+    "avgDesc": "Based on 2024 Lunar New Year national average spending"
+  },
+  "result": {
+    "title": "Gift Money Analysis",
+    "breakdown": "Spending by Relationship"
+  },
+  "funFact": {
+    "coffee": "{count} cups of coffee",
+    "ramen": "{count} bowls of ramen",
+    "meal": "{count} restaurant meals",
+    "movie": "{count} movie tickets",
+    "shoes": "{count} pairs of sneakers",
+    "airpods": "{count} AirPods",
+    "travel": "{count} round-trip flights",
+    "tablet": "{count} tablets",
+    "trip": "{count} overseas trips",
+    "none": "Add some gift recipients to see fun facts!"
+  },
+  "share": {
+    "title": "Share Your Results",
+    "twitter": "Twitter",
+    "facebook": "Facebook",
+    "copyLink": "Copy Link",
+    "copied": "Link copied!",
+    "twitterText": "My New Year gift money total: {amount}! Prepared gifts for {count} people"
+  },
+  "footer": {
+    "back": "DopaBrain Home"
+  }
+}

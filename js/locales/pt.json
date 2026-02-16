@@ -1,0 +1,92 @@
+{
+  "app": {
+    "title": "Calculadora de Presentes",
+    "subtitle": "Quanto dar de presente no Ano Novo?",
+    "loading": "Carregando...",
+    "skipLink": "Pular para o conteudo"
+  },
+  "meta": {
+    "title": "Calculadora de Presentes - Guia de Presentes de Ano Novo",
+    "description": "Calcule valores apropriados de presentes por parentesco, analise gastos totais"
+  },
+  "intro": {
+    "title": "Feliz Ano Novo!",
+    "desc": "Nao sabe quanto dar de presente? Receba recomendacoes por parentesco, acompanhe seus gastos totais e veja como voce se compara a media nacional!",
+    "feature1": "Valores recomendados por parentesco",
+    "feature2": "Analise de gastos e receitas",
+    "feature3": "Comparacao com a media nacional"
+  },
+  "button": {
+    "start": "Comecar",
+    "add": "Adicionar",
+    "showResult": "Ver Resultados",
+    "restart": "Recalcular"
+  },
+  "relation": {
+    "youngNephew": "Crianca pequena",
+    "niece": "Sobrinho/a",
+    "elementary": "Fundamental I",
+    "middle": "Fundamental II",
+    "high": "Ensino Medio",
+    "college": "Universidade",
+    "parents": "Pais",
+    "grandparents": "Avos",
+    "inlaws": "Sogros"
+  },
+  "calc": {
+    "addTitle": "Adicionar Destinatario",
+    "nameLabel": "Nome (opcional)",
+    "namePlaceholder": "Ex: Sobrinho Joao",
+    "relationLabel": "Parentesco",
+    "amountLabel": "Valor (KRW)",
+    "hasKids": "Eu tambem tenho filhos que recebem presentes",
+    "kidsCountLabel": "Numero de filhos",
+    "kidsAgeLabel": "Faixa etaria media dos filhos",
+    "ageYoung": "Pre-escola (0-6)",
+    "ageElementary": "Fundamental I (7-12)",
+    "ageMiddle": "Fundamental II (13-15)",
+    "ageHigh": "Ensino Medio (16-18)",
+    "ageCollege": "Universidade (19-24)",
+    "listTitle": "Lista de Presentes",
+    "emptyList": "Nenhum destinatario adicionado",
+    "totalSpending": "Gasto total:",
+    "total": "Gasto Total",
+    "income": "Receita Esperada",
+    "net": "Saldo Liquido",
+    "average": "Comparacao com a Media Nacional",
+    "you": "Voce",
+    "avgLabel": "Media",
+    "aboveAvg": "Voce esta gastando {amount} acima da media!",
+    "belowAvg": "Voce esta gastando {amount} abaixo da media!",
+    "exactAvg": "Voce esta exatamente na media nacional!",
+    "funFact": "O que esse dinheiro pode comprar?",
+    "avgDesc": "Baseado na media nacional do Ano Novo Lunar 2024"
+  },
+  "result": {
+    "title": "Analise de Presentes",
+    "breakdown": "Gastos por Parentesco"
+  },
+  "funFact": {
+    "coffee": "{count} xicaras de cafe",
+    "ramen": "{count} tigelas de ramen",
+    "meal": "{count} refeicoes em restaurante",
+    "movie": "{count} ingressos de cinema",
+    "shoes": "{count} pares de tenis",
+    "airpods": "{count} AirPods",
+    "travel": "{count} passagens aereas ida e volta",
+    "tablet": "{count} tablets",
+    "trip": "{count} viagens internacionais",
+    "none": "Adicione destinatarios para ver fatos divertidos!"
+  },
+  "share": {
+    "title": "Compartilhar Resultados",
+    "twitter": "Twitter",
+    "facebook": "Facebook",
+    "copyLink": "Copiar Link",
+    "copied": "Link copiado!",
+    "twitterText": "Meu total de presentes de Ano Novo: {amount}! Preparei presentes para {count} pessoas"
+  },
+  "footer": {
+    "back": "Inicio DopaBrain"
+  }
+}

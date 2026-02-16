@@ -1,0 +1,92 @@
+{
+  "app": {
+    "title": "Calculateur d'Etrennes",
+    "subtitle": "Combien offrir pour les fetes?",
+    "loading": "Chargement...",
+    "skipLink": "Aller au contenu"
+  },
+  "meta": {
+    "title": "Calculateur d'Etrennes - Guide des Cadeaux du Nouvel An",
+    "description": "Calculez les montants d'etrennes par lien de parente, analysez les depenses totales"
+  },
+  "intro": {
+    "title": "Bonne Annee!",
+    "desc": "Vous ne savez pas combien offrir? Obtenez des recommandations par lien de parente, suivez vos depenses et comparez avec la moyenne nationale!",
+    "feature1": "Montants recommandes par parente",
+    "feature2": "Analyse des depenses et revenus",
+    "feature3": "Comparaison avec la moyenne nationale"
+  },
+  "button": {
+    "start": "Commencer",
+    "add": "Ajouter",
+    "showResult": "Voir les Resultats",
+    "restart": "Recalculer"
+  },
+  "relation": {
+    "youngNephew": "Tout-petit",
+    "niece": "Neveu/Niece",
+    "elementary": "Primaire",
+    "middle": "College",
+    "high": "Lycee",
+    "college": "Etudiant(e)",
+    "parents": "Parents",
+    "grandparents": "Grands-parents",
+    "inlaws": "Beaux-parents"
+  },
+  "calc": {
+    "addTitle": "Ajouter un Destinataire",
+    "nameLabel": "Nom (facultatif)",
+    "namePlaceholder": "Ex: Neveu Pierre",
+    "relationLabel": "Lien de parente",
+    "amountLabel": "Montant (KRW)",
+    "hasKids": "J'ai aussi des enfants qui recoivent des etrennes",
+    "kidsCountLabel": "Nombre d'enfants",
+    "kidsAgeLabel": "Tranche d'age moyenne des enfants",
+    "ageYoung": "Prescolaire (0-6)",
+    "ageElementary": "Primaire (7-12)",
+    "ageMiddle": "College (13-15)",
+    "ageHigh": "Lycee (16-18)",
+    "ageCollege": "Universite (19-24)",
+    "listTitle": "Liste des Etrennes",
+    "emptyList": "Aucun destinataire ajoute",
+    "totalSpending": "Depenses totales:",
+    "total": "Depenses Totales",
+    "income": "Revenus Attendus",
+    "net": "Solde Net",
+    "average": "Comparaison avec la Moyenne Nationale",
+    "you": "Vous",
+    "avgLabel": "Moy.",
+    "aboveAvg": "Vous depensez {amount} de plus que la moyenne!",
+    "belowAvg": "Vous depensez {amount} de moins que la moyenne!",
+    "exactAvg": "Vous etes pile dans la moyenne nationale!",
+    "funFact": "Que pourrait-on acheter avec cet argent?",
+    "avgDesc": "Base sur les depenses moyennes du Nouvel An lunaire 2024"
+  },
+  "result": {
+    "title": "Analyse des Etrennes",
+    "breakdown": "Depenses par Parente"
+  },
+  "funFact": {
+    "coffee": "{count} tasses de cafe",
+    "ramen": "{count} bols de ramen",
+    "meal": "{count} repas au restaurant",
+    "movie": "{count} places de cinema",
+    "shoes": "{count} paires de baskets",
+    "airpods": "{count} AirPods",
+    "travel": "{count} billets d'avion aller-retour",
+    "tablet": "{count} tablettes",
+    "trip": "{count} voyages a l'etranger",
+    "none": "Ajoutez des destinataires!"
+  },
+  "share": {
+    "title": "Partager les Resultats",
+    "twitter": "Twitter",
+    "facebook": "Facebook",
+    "copyLink": "Copier le Lien",
+    "copied": "Lien copie!",
+    "twitterText": "Mes etrennes du Nouvel An: {amount}! Cadeaux prepares pour {count} personnes"
+  },
+  "footer": {
+    "back": "DopaBrain Accueil"
+  }
+}

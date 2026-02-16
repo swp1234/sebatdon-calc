@@ -1,0 +1,12 @@
+{
+  "name": "세뱃돈 계산기",
+  "short_name": "세뱃돈",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#060612",
+  "theme_color": "#ca8a04",
+  "icons": [
+    {"src": "icon-192.svg", "sizes": "192x192", "type": "image/svg+xml"},
+    {"src": "icon-512.svg", "sizes": "512x512", "type": "image/svg+xml"}
+  ]
+}

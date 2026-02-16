@@ -1,0 +1,92 @@
+{
+  "app": {
+    "title": "Kalkulator Angpao",
+    "subtitle": "Berapa angpao yang tepat untuk diberikan?",
+    "loading": "Memuat...",
+    "skipLink": "Langsung ke konten"
+  },
+  "meta": {
+    "title": "Kalkulator Angpao - Panduan Angpao Imlek",
+    "description": "Hitung jumlah angpao yang tepat berdasarkan hubungan, analisis total pengeluaran"
+  },
+  "intro": {
+    "title": "Selamat Tahun Baru!",
+    "desc": "Bingung berapa angpao yang harus diberikan? Dapatkan rekomendasi berdasarkan hubungan, lacak total pengeluaran, dan bandingkan dengan rata-rata nasional!",
+    "feature1": "Rekomendasi jumlah per hubungan",
+    "feature2": "Analisis pengeluaran & pendapatan",
+    "feature3": "Perbandingan dengan rata-rata nasional"
+  },
+  "button": {
+    "start": "Mulai",
+    "add": "Tambah",
+    "showResult": "Lihat Hasil",
+    "restart": "Hitung Ulang"
+  },
+  "relation": {
+    "youngNephew": "Balita",
+    "niece": "Keponakan",
+    "elementary": "SD",
+    "middle": "SMP",
+    "high": "SMA",
+    "college": "Mahasiswa",
+    "parents": "Orang Tua",
+    "grandparents": "Kakek/Nenek",
+    "inlaws": "Mertua"
+  },
+  "calc": {
+    "addTitle": "Tambah Penerima Angpao",
+    "nameLabel": "Nama (opsional)",
+    "namePlaceholder": "Contoh: Keponakan Budi",
+    "relationLabel": "Hubungan",
+    "amountLabel": "Jumlah (KRW)",
+    "hasKids": "Saya juga punya anak yang menerima angpao",
+    "kidsCountLabel": "Jumlah anak",
+    "kidsAgeLabel": "Rata-rata usia anak",
+    "ageYoung": "Prasekolah (0-6)",
+    "ageElementary": "SD (7-12)",
+    "ageMiddle": "SMP (13-15)",
+    "ageHigh": "SMA (16-18)",
+    "ageCollege": "Kuliah (19-24)",
+    "listTitle": "Daftar Angpao",
+    "emptyList": "Belum ada penerima",
+    "totalSpending": "Total pengeluaran:",
+    "total": "Total Pengeluaran",
+    "income": "Perkiraan Pendapatan",
+    "net": "Saldo Bersih",
+    "average": "Perbandingan Rata-rata Nasional",
+    "you": "Anda",
+    "avgLabel": "Rata2",
+    "aboveAvg": "Anda menghabiskan {amount} lebih dari rata-rata!",
+    "belowAvg": "Anda menghabiskan {amount} kurang dari rata-rata!",
+    "exactAvg": "Anda tepat di rata-rata nasional!",
+    "funFact": "Apa yang bisa dibeli dengan uang ini?",
+    "avgDesc": "Berdasarkan rata-rata nasional Imlek 2024"
+  },
+  "result": {
+    "title": "Analisis Angpao",
+    "breakdown": "Pengeluaran per Hubungan"
+  },
+  "funFact": {
+    "coffee": "{count} cangkir kopi",
+    "ramen": "{count} mangkuk ramen",
+    "meal": "{count} kali makan di restoran",
+    "movie": "{count} tiket bioskop",
+    "shoes": "{count} pasang sepatu",
+    "airpods": "{count} AirPods",
+    "travel": "{count} tiket pesawat PP",
+    "tablet": "{count} tablet",
+    "trip": "{count} perjalanan ke luar negeri",
+    "none": "Tambahkan penerima angpao!"
+  },
+  "share": {
+    "title": "Bagikan Hasil",
+    "twitter": "Twitter",
+    "facebook": "Facebook",
+    "copyLink": "Salin Link",
+    "copied": "Link disalin!",
+    "twitterText": "Total angpao saya: {amount}! Menyiapkan angpao untuk {count} orang"
+  },
+  "footer": {
+    "back": "DopaBrain Beranda"
+  }
+}

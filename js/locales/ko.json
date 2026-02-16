@@ -1,0 +1,92 @@
+{
+  "app": {
+    "title": "세뱃돈 계산기",
+    "subtitle": "설날 세뱃돈, 얼마가 적당할까?",
+    "loading": "로딩 중...",
+    "skipLink": "본문으로 건너뛰기"
+  },
+  "meta": {
+    "title": "세뱃돈 계산기 - 설날 세뱃돈 금액 추천",
+    "description": "관계별 세뱃돈 적정 금액 추천, 총 지출 분석, 전국 평균 비교"
+  },
+  "intro": {
+    "title": "새해 복 많이 받으세요!",
+    "desc": "설날에 꼭 필요한 세뱃돈, 관계별로 적정 금액을 추천해 드릴게요. 가족 구성원을 추가하고 총 지출을 확인해 보세요!",
+    "feature1": "관계별 적정 금액 추천",
+    "feature2": "총 지출 & 수입 분석",
+    "feature3": "전국 평균 비교"
+  },
+  "button": {
+    "start": "시작하기",
+    "add": "추가하기",
+    "showResult": "결과 보기",
+    "restart": "다시 계산하기"
+  },
+  "relation": {
+    "youngNephew": "어린 조카",
+    "niece": "조카",
+    "elementary": "초등학생",
+    "middle": "중학생",
+    "high": "고등학생",
+    "college": "대학생",
+    "parents": "부모님",
+    "grandparents": "조부모님",
+    "inlaws": "시부모/장인"
+  },
+  "calc": {
+    "addTitle": "세뱃돈 받는 사람 추가",
+    "nameLabel": "이름 (선택)",
+    "namePlaceholder": "예: 첫째 조카",
+    "relationLabel": "관계",
+    "amountLabel": "금액 (원)",
+    "hasKids": "나도 세뱃돈 받을 자녀가 있어요",
+    "kidsCountLabel": "자녀 수",
+    "kidsAgeLabel": "자녀 평균 연령대",
+    "ageYoung": "미취학 (0~6세)",
+    "ageElementary": "초등학생 (7~12세)",
+    "ageMiddle": "중학생 (13~15세)",
+    "ageHigh": "고등학생 (16~18세)",
+    "ageCollege": "대학생 (19~24세)",
+    "listTitle": "세뱃돈 목록",
+    "emptyList": "아직 추가된 사람이 없어요",
+    "totalSpending": "총 지출:",
+    "total": "총 지출",
+    "income": "예상 수입",
+    "net": "순 수지",
+    "average": "전국 평균 비교",
+    "you": "나",
+    "avgLabel": "평균",
+    "aboveAvg": "전국 평균보다 {amount} 더 쓰고 있어요!",
+    "belowAvg": "전국 평균보다 {amount} 적게 쓰고 있어요!",
+    "exactAvg": "전국 평균과 정확히 같아요!",
+    "funFact": "이 돈으로 뭘 할 수 있을까?",
+    "avgDesc": "2024년 설날 기준 전국 평균 세뱃돈 지출액"
+  },
+  "result": {
+    "title": "세뱃돈 분석 결과",
+    "breakdown": "관계별 지출 비율"
+  },
+  "funFact": {
+    "coffee": "커피 {count}잔",
+    "ramen": "라면 {count}그릇",
+    "meal": "백반 {count}끼",
+    "movie": "영화 관람 {count}회",
+    "shoes": "운동화 {count}켤레",
+    "airpods": "에어팟 {count}개",
+    "travel": "제주도 왕복 항공권 {count}장",
+    "tablet": "태블릿 {count}대",
+    "trip": "해외여행 {count}회",
+    "none": "세뱃돈을 추가해 보세요!"
+  },
+  "share": {
+    "title": "결과 공유하기",
+    "twitter": "Twitter",
+    "facebook": "Facebook",
+    "copyLink": "링크 복사",
+    "copied": "복사되었습니다!",
+    "twitterText": "올해 세뱃돈 총 {amount}! {count}명에게 세뱃돈을 준비했어요 🧧"
+  },
+  "footer": {
+    "back": "DopaBrain 홈"
+  }
+}

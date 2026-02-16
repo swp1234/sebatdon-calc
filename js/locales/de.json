@@ -1,0 +1,92 @@
+{
+  "app": {
+    "title": "Geldgeschenk-Rechner",
+    "subtitle": "Wie viel Geld zum Fest verschenken?",
+    "loading": "Wird geladen...",
+    "skipLink": "Zum Inhalt springen"
+  },
+  "meta": {
+    "title": "Geldgeschenk-Rechner - Neujahrs-Geldgeschenk-Guide",
+    "description": "Berechnen Sie angemessene Geldgeschenke nach Verwandtschaftsgrad, analysieren Sie die Gesamtausgaben"
+  },
+  "intro": {
+    "title": "Frohes Neues Jahr!",
+    "desc": "Unsicher, wie viel Sie verschenken sollen? Erhalten Sie Empfehlungen nach Verwandtschaftsgrad, verfolgen Sie Ihre Gesamtausgaben und vergleichen Sie mit dem Landesdurchschnitt!",
+    "feature1": "Empfohlene Betrage nach Verwandtschaft",
+    "feature2": "Ausgaben- und Einnahmenanalyse",
+    "feature3": "Vergleich mit dem Landesdurchschnitt"
+  },
+  "button": {
+    "start": "Starten",
+    "add": "Hinzufugen",
+    "showResult": "Ergebnisse",
+    "restart": "Neu Berechnen"
+  },
+  "relation": {
+    "youngNephew": "Kleinkind",
+    "niece": "Neffe/Nichte",
+    "elementary": "Grundschule",
+    "middle": "Mittelschule",
+    "high": "Gymnasium",
+    "college": "Student/in",
+    "parents": "Eltern",
+    "grandparents": "Grosseltern",
+    "inlaws": "Schwiegereltern"
+  },
+  "calc": {
+    "addTitle": "Empfanger Hinzufugen",
+    "nameLabel": "Name (optional)",
+    "namePlaceholder": "z.B.: Neffe Max",
+    "relationLabel": "Verwandtschaft",
+    "amountLabel": "Betrag (KRW)",
+    "hasKids": "Ich habe auch Kinder, die Geldgeschenke erhalten",
+    "kidsCountLabel": "Anzahl der Kinder",
+    "kidsAgeLabel": "Durchschnittliche Altersgruppe der Kinder",
+    "ageYoung": "Vorschule (0-6)",
+    "ageElementary": "Grundschule (7-12)",
+    "ageMiddle": "Mittelschule (13-15)",
+    "ageHigh": "Gymnasium (16-18)",
+    "ageCollege": "Universitat (19-24)",
+    "listTitle": "Geschenkliste",
+    "emptyList": "Noch keine Empfanger hinzugefugt",
+    "totalSpending": "Gesamtausgaben:",
+    "total": "Gesamtausgaben",
+    "income": "Erwartete Einnahmen",
+    "net": "Nettobilanz",
+    "average": "Vergleich mit dem Landesdurchschnitt",
+    "you": "Sie",
+    "avgLabel": "Durchschn.",
+    "aboveAvg": "Sie geben {amount} mehr aus als der Durchschnitt!",
+    "belowAvg": "Sie geben {amount} weniger aus als der Durchschnitt!",
+    "exactAvg": "Sie liegen genau im Landesdurchschnitt!",
+    "funFact": "Was konnte man mit diesem Geld kaufen?",
+    "avgDesc": "Basierend auf den durchschnittlichen Ausgaben zum Mondfest 2024"
+  },
+  "result": {
+    "title": "Geschenk-Analyse",
+    "breakdown": "Ausgaben nach Verwandtschaft"
+  },
+  "funFact": {
+    "coffee": "{count} Tassen Kaffee",
+    "ramen": "{count} Schalen Ramen",
+    "meal": "{count} Restaurantbesuche",
+    "movie": "{count} Kinotickets",
+    "shoes": "{count} Paar Sneaker",
+    "airpods": "{count} AirPods",
+    "travel": "{count} Hin- und Ruckfluge",
+    "tablet": "{count} Tablets",
+    "trip": "{count} Auslandsreisen",
+    "none": "Fugen Sie Empfanger hinzu!"
+  },
+  "share": {
+    "title": "Ergebnisse Teilen",
+    "twitter": "Twitter",
+    "facebook": "Facebook",
+    "copyLink": "Link Kopieren",
+    "copied": "Link kopiert!",
+    "twitterText": "Meine Neujahrsgeschenke: {amount}! Geschenke fur {count} Personen vorbereitet"
+  },
+  "footer": {
+    "back": "DopaBrain Startseite"
+  }
+}

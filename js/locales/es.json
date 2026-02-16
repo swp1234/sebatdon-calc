@@ -1,0 +1,92 @@
+{
+  "app": {
+    "title": "Calculadora de Aguinaldos",
+    "subtitle": "Cuanto dar de regalo en las fiestas?",
+    "loading": "Cargando...",
+    "skipLink": "Saltar al contenido"
+  },
+  "meta": {
+    "title": "Calculadora de Aguinaldos - Regalos de Ano Nuevo",
+    "description": "Calcula montos apropiados de aguinaldos por parentesco, analiza el gasto total"
+  },
+  "intro": {
+    "title": "Feliz Ano Nuevo!",
+    "desc": "No sabes cuanto dar de aguinaldo? Obtiene recomendaciones por parentesco, analiza tu gasto total y comparalo con el promedio nacional!",
+    "feature1": "Montos recomendados por parentesco",
+    "feature2": "Analisis de gastos e ingresos",
+    "feature3": "Comparacion con el promedio nacional"
+  },
+  "button": {
+    "start": "Empezar",
+    "add": "Agregar",
+    "showResult": "Ver Resultados",
+    "restart": "Recalcular"
+  },
+  "relation": {
+    "youngNephew": "Nino pequeno",
+    "niece": "Sobrino/a",
+    "elementary": "Primaria",
+    "middle": "Secundaria",
+    "high": "Preparatoria",
+    "college": "Universidad",
+    "parents": "Padres",
+    "grandparents": "Abuelos",
+    "inlaws": "Suegros"
+  },
+  "calc": {
+    "addTitle": "Agregar Destinatario",
+    "nameLabel": "Nombre (opcional)",
+    "namePlaceholder": "Ej: Sobrino Pedro",
+    "relationLabel": "Parentesco",
+    "amountLabel": "Monto (KRW)",
+    "hasKids": "Tengo hijos que tambien reciben aguinaldos",
+    "kidsCountLabel": "Numero de hijos",
+    "kidsAgeLabel": "Edad promedio de los hijos",
+    "ageYoung": "Preescolar (0-6)",
+    "ageElementary": "Primaria (7-12)",
+    "ageMiddle": "Secundaria (13-15)",
+    "ageHigh": "Preparatoria (16-18)",
+    "ageCollege": "Universidad (19-24)",
+    "listTitle": "Lista de Aguinaldos",
+    "emptyList": "Aun no hay destinatarios",
+    "totalSpending": "Gasto total:",
+    "total": "Gasto Total",
+    "income": "Ingreso Esperado",
+    "net": "Balance Neto",
+    "average": "Comparacion con Promedio Nacional",
+    "you": "Tu",
+    "avgLabel": "Prom",
+    "aboveAvg": "Gastas {amount} mas que el promedio!",
+    "belowAvg": "Gastas {amount} menos que el promedio!",
+    "exactAvg": "Estas justo en el promedio nacional!",
+    "funFact": "Que podrias comprar con este dinero?",
+    "avgDesc": "Basado en el promedio nacional del Ano Nuevo Lunar 2024"
+  },
+  "result": {
+    "title": "Analisis de Aguinaldos",
+    "breakdown": "Gasto por Parentesco"
+  },
+  "funFact": {
+    "coffee": "{count} tazas de cafe",
+    "ramen": "{count} platos de ramen",
+    "meal": "{count} comidas en restaurante",
+    "movie": "{count} entradas al cine",
+    "shoes": "{count} pares de tenis",
+    "airpods": "{count} AirPods",
+    "travel": "{count} vuelos ida y vuelta",
+    "tablet": "{count} tablets",
+    "trip": "{count} viajes al extranjero",
+    "none": "Agrega destinatarios para ver datos curiosos!"
+  },
+  "share": {
+    "title": "Compartir Resultados",
+    "twitter": "Twitter",
+    "facebook": "Facebook",
+    "copyLink": "Copiar Enlace",
+    "copied": "Enlace copiado!",
+    "twitterText": "Mi total de aguinaldos: {amount}! Prepare regalos para {count} personas"
+  },
+  "footer": {
+    "back": "Inicio DopaBrain"
+  }
+}

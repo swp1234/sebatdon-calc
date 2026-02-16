@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 192" width="192" height="192">
+  <defs>
+    <linearGradient id="coinGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f6e05e"/>
+      <stop offset="50%" stop-color="#ca8a04"/>
+      <stop offset="100%" stop-color="#92600a"/>
+    </linearGradient>
+    <linearGradient id="shineGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="rgba(255,255,255,0.4)"/>
+      <stop offset="100%" stop-color="rgba(255,255,255,0)"/>
+    </linearGradient>
+  </defs>
+  <!-- Background -->
+  <rect width="192" height="192" rx="32" fill="#060612"/>
+  <!-- Coin body -->
+  <circle cx="96" cy="88" r="56" fill="url(#coinGrad)" stroke="#92600a" stroke-width="3"/>
+  <!-- Inner ring -->
+  <circle cx="96" cy="88" r="44" fill="none" stroke="#f6e05e" stroke-width="2" opacity="0.6"/>
+  <!-- Won symbol -->
+  <text x="96" y="100" text-anchor="middle" font-size="42" font-weight="bold" fill="#060612" font-family="Arial, sans-serif">\u20A9</text>
+  <!-- Shine -->
+  <ellipse cx="80" cy="72" rx="20" ry="14" fill="url(#shineGrad)" transform="rotate(-20 80 72)"/>
+  <!-- Small coins -->
+  <circle cx="52" cy="148" r="18" fill="url(#coinGrad)" opacity="0.7" stroke="#92600a" stroke-width="1.5"/>
+  <text x="52" y="154" text-anchor="middle" font-size="16" font-weight="bold" fill="#060612" font-family="Arial, sans-serif">\u20A9</text>
+  <circle cx="140" cy="148" r="18" fill="url(#coinGrad)" opacity="0.7" stroke="#92600a" stroke-width="1.5"/>
+  <text x="140" y="154" text-anchor="middle" font-size="16" font-weight="bold" fill="#060612" font-family="Arial, sans-serif">\u20A9</text>
+  <!-- Sparkles -->
+  <circle cx="155" cy="45" r="3" fill="#f6e05e" opacity="0.8"/>
+  <circle cx="38" cy="55" r="2.5" fill="#f6e05e" opacity="0.6"/>
+  <circle cx="96" cy="168" r="2" fill="#f6e05e" opacity="0.7"/>
+</svg>

@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="coinGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f6e05e"/>
+      <stop offset="50%" stop-color="#ca8a04"/>
+      <stop offset="100%" stop-color="#92600a"/>
+    </linearGradient>
+    <linearGradient id="shineGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="rgba(255,255,255,0.4)"/>
+      <stop offset="100%" stop-color="rgba(255,255,255,0)"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <!-- Background -->
+  <rect width="512" height="512" rx="80" fill="#060612"/>
+  <!-- Main coin -->
+  <circle cx="256" cy="230" r="150" fill="url(#coinGrad)" stroke="#92600a" stroke-width="6"/>
+  <!-- Inner ring -->
+  <circle cx="256" cy="230" r="118" fill="none" stroke="#f6e05e" stroke-width="4" opacity="0.6"/>
+  <!-- Decorative inner circle -->
+  <circle cx="256" cy="230" r="100" fill="none" stroke="#f6e05e" stroke-width="1.5" opacity="0.3"/>
+  <!-- Won symbol -->
+  <text x="256" y="260" text-anchor="middle" font-size="110" font-weight="bold" fill="#060612" font-family="Arial, sans-serif">\u20A9</text>
+  <!-- Shine -->
+  <ellipse cx="210" cy="185" rx="55" ry="35" fill="url(#shineGrad)" transform="rotate(-20 210 185)"/>
+  <!-- Small coin left -->
+  <circle cx="120" cy="400" r="48" fill="url(#coinGrad)" opacity="0.7" stroke="#92600a" stroke-width="3"/>
+  <circle cx="120" cy="400" r="36" fill="none" stroke="#f6e05e" stroke-width="1.5" opacity="0.4"/>
+  <text x="120" y="414" text-anchor="middle" font-size="40" font-weight="bold" fill="#060612" font-family="Arial, sans-serif">\u20A9</text>
+  <!-- Small coin right -->
+  <circle cx="392" cy="400" r="48" fill="url(#coinGrad)" opacity="0.7" stroke="#92600a" stroke-width="3"/>
+  <circle cx="392" cy="400" r="36" fill="none" stroke="#f6e05e" stroke-width="1.5" opacity="0.4"/>
+  <text x="392" y="414" text-anchor="middle" font-size="40" font-weight="bold" fill="#060612" font-family="Arial, sans-serif">\u20A9</text>
+  <!-- Sparkles -->
+  <circle cx="420" cy="100" r="8" fill="#f6e05e" opacity="0.8" filter="url(#glow)"/>
+  <circle cx="90" cy="130" r="6" fill="#f6e05e" opacity="0.6" filter="url(#glow)"/>
+  <circle cx="256" cy="460" r="5" fill="#f6e05e" opacity="0.7"/>
+  <circle cx="450" cy="250" r="4" fill="#f6e05e" opacity="0.5"/>
+  <circle cx="60" cy="280" r="4" fill="#f6e05e" opacity="0.5"/>
+  <!-- Red envelope hint lines -->
+  <rect x="200" cy="420" y="430" width="112" height="50" rx="6" fill="#dc2626" opacity="0.15"/>
+</svg>

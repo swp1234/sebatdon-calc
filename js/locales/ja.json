@@ -1,0 +1,92 @@
+{
+  "app": {
+    "title": "お年玉計算機",
+    "subtitle": "お年玉、いくらが適切？",
+    "loading": "読み込み中...",
+    "skipLink": "本文へスキップ"
+  },
+  "meta": {
+    "title": "お年玉計算機 - お正月お年玉ガイド",
+    "description": "関係別のお年玉推奨金額、総支出分析、全国平均との比較"
+  },
+  "intro": {
+    "title": "明けましておめでとうございます！",
+    "desc": "お正月のお年玉、いくらあげればいいか迷っていませんか？関係別に適切な金額を提案し、総支出を分析します！",
+    "feature1": "関係別の推奨金額",
+    "feature2": "総支出・収入分析",
+    "feature3": "全国平均との比較"
+  },
+  "button": {
+    "start": "始める",
+    "add": "追加",
+    "showResult": "結果を見る",
+    "restart": "もう一度計算する"
+  },
+  "relation": {
+    "youngNephew": "幼い甥姪",
+    "niece": "甥・姪",
+    "elementary": "小学生",
+    "middle": "中学生",
+    "high": "高校生",
+    "college": "大学生",
+    "parents": "両親",
+    "grandparents": "祖父母",
+    "inlaws": "義父母"
+  },
+  "calc": {
+    "addTitle": "お年玉の相手を追加",
+    "nameLabel": "名前（任意）",
+    "namePlaceholder": "例：甥の太郎",
+    "relationLabel": "関係",
+    "amountLabel": "金額（KRW）",
+    "hasKids": "私にもお年玉をもらう子どもがいます",
+    "kidsCountLabel": "子どもの数",
+    "kidsAgeLabel": "子どもの平均年齢層",
+    "ageYoung": "未就学児（0〜6歳）",
+    "ageElementary": "小学生（7〜12歳）",
+    "ageMiddle": "中学生（13〜15歳）",
+    "ageHigh": "高校生（16〜18歳）",
+    "ageCollege": "大学生（19〜24歳）",
+    "listTitle": "お年玉リスト",
+    "emptyList": "まだ追加された人がいません",
+    "totalSpending": "合計支出:",
+    "total": "総支出",
+    "income": "予想収入",
+    "net": "収支",
+    "average": "全国平均との比較",
+    "you": "あなた",
+    "avgLabel": "平均",
+    "aboveAvg": "全国平均より{amount}多く使っています！",
+    "belowAvg": "全国平均より{amount}少なく使っています！",
+    "exactAvg": "全国平均とぴったり同じです！",
+    "funFact": "このお金で何ができる？",
+    "avgDesc": "2024年正月の全国平均お年玉支出額"
+  },
+  "result": {
+    "title": "お年玉分析結果",
+    "breakdown": "関係別支出割合"
+  },
+  "funFact": {
+    "coffee": "コーヒー{count}杯",
+    "ramen": "ラーメン{count}杯",
+    "meal": "定食{count}食",
+    "movie": "映画鑑賞{count}回",
+    "shoes": "スニーカー{count}足",
+    "airpods": "AirPods {count}個",
+    "travel": "国内往復航空券{count}枚",
+    "tablet": "タブレット{count}台",
+    "trip": "海外旅行{count}回",
+    "none": "お年玉の相手を追加してみてください！"
+  },
+  "share": {
+    "title": "結果をシェア",
+    "twitter": "Twitter",
+    "facebook": "Facebook",
+    "copyLink": "リンクをコピー",
+    "copied": "コピーしました！",
+    "twitterText": "今年のお年玉合計：{amount}！{count}人にお年玉を準備しました🧧"
+  },
+  "footer": {
+    "back": "DopaBrain ホーム"
+  }
+}
