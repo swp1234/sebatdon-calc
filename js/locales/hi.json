@@ -88,5 +88,12 @@
   },
   "footer": {
     "back": "DopaBrain होम"
+  },
+  "related": {
+    "title": "और खोजें",
+    "shoppingCalc": "शॉपिंग कैलकुलेटर",
+    "taxRefundPreview": "टैक्स रिफंड",
+    "unitConverter": "यूनिट कनवर्टर",
+    "bmiCalculator": "BMI कैलकुलेटर"
   }
 }

@@ -88,5 +88,12 @@
   },
   "footer": {
     "back": "DopaBrain 首页"
+  },
+  "related": {
+    "title": "探索更多",
+    "shoppingCalc": "购物计算器",
+    "taxRefundPreview": "退税预览",
+    "unitConverter": "单位转换器",
+    "bmiCalculator": "BMI计算器"
   }
 }

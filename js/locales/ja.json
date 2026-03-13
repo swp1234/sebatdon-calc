@@ -88,5 +88,12 @@
   },
   "footer": {
     "back": "DopaBrain ホーム"
+  },
+  "related": {
+    "title": "もっと楽しむ",
+    "shoppingCalc": "ショッピング計算機",
+    "taxRefundPreview": "税金還付",
+    "unitConverter": "単位変換",
+    "bmiCalculator": "BMI計算"
   }
 }

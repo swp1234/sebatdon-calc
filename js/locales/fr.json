@@ -88,5 +88,12 @@
   },
   "footer": {
     "back": "DopaBrain Accueil"
+  },
+  "related": {
+    "title": "À découvrir",
+    "shoppingCalc": "Calculateur d'achats",
+    "taxRefundPreview": "Remboursement fiscal",
+    "unitConverter": "Convertisseur d'unités",
+    "bmiCalculator": "Calculateur IMC"
   }
 }

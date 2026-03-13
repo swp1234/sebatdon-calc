@@ -88,5 +88,12 @@
   },
   "footer": {
     "back": "DopaBrain Beranda"
+  },
+  "related": {
+    "title": "Jelajahi lainnya",
+    "shoppingCalc": "Kalkulator Belanja",
+    "taxRefundPreview": "Pengembalian Pajak",
+    "unitConverter": "Konverter Satuan",
+    "bmiCalculator": "Kalkulator BMI"
   }
 }

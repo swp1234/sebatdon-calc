@@ -88,5 +88,12 @@
   },
   "footer": {
     "back": "DopaBrain Home"
+  },
+  "related": {
+    "title": "More to Explore",
+    "shoppingCalc": "Shopping Calc",
+    "taxRefundPreview": "Tax Refund",
+    "unitConverter": "Unit Converter",
+    "bmiCalculator": "BMI Calculator"
   }
 }

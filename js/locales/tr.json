@@ -88,5 +88,12 @@
   },
   "footer": {
     "back": "DopaBrain Ana Sayfa"
+  },
+  "related": {
+    "title": "Daha fazla keşfet",
+    "shoppingCalc": "Alışveriş Hesaplayıcı",
+    "taxRefundPreview": "Vergi İadesi",
+    "unitConverter": "Birim Dönüştürücü",
+    "bmiCalculator": "VKİ Hesaplayıcı"
   }
 }

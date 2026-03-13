@@ -88,5 +88,12 @@
   },
   "footer": {
     "back": "DopaBrain Главная"
+  },
+  "related": {
+    "title": "Ещё интересное",
+    "shoppingCalc": "Калькулятор покупок",
+    "taxRefundPreview": "Налоговый возврат",
+    "unitConverter": "Конвертер единиц",
+    "bmiCalculator": "Калькулятор ИМТ"
   }
 }

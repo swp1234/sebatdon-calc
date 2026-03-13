@@ -88,5 +88,12 @@
   },
   "footer": {
     "back": "DopaBrain 홈"
+  },
+  "related": {
+    "title": "더 많은 콘텐츠",
+    "shoppingCalc": "쇼핑 계산기",
+    "taxRefundPreview": "연말정산 미리보기",
+    "unitConverter": "단위 변환기",
+    "bmiCalculator": "BMI 계산기"
   }
 }
