@@ -20,6 +20,7 @@
     initDom();
     initTheme();
     initLanguageSelector();
+        initRelatedFunnels();
     buildRelationGrid();
     bindEvents();
     hideLoader();
@@ -642,3 +643,34 @@
   }
 
 })();
+
+
+// Funnel bridge & language preservation
+function initRelatedFunnels() {
+    const urlParams = new URLSearchParams(window.location.search);
+    const lang = urlParams.get('lang') || (window.i18n ? window.i18n.currentLang : 'ko') || 'ko';
+    const base = (window.location.origin && window.location.origin !== 'null') ? window.location.origin : 'https://dopabrain.com';
+    document.querySelectorAll('.related-grid a').forEach(link => {
+        const baseHref = link.getAttribute('data-base-href') || link.getAttribute('href');
+        if (!baseHref || baseHref.startsWith('http') || baseHref.startsWith('#')) return;
+        try {
+            const url = new URL(baseHref, base);
+            url.searchParams.set('lang', lang);
+            if (!url.searchParams.has('source')) url.searchParams.set('source', 'sebatdon_calc_result');
+            link.setAttribute('href', url.pathname + url.search);
+        } catch(e) {}
+        if (!link.dataset.trackedCta) {
+            link.dataset.trackedCta = 'true';
+            link.addEventListener('click', () => {
+                if (typeof gtag === 'function') {
+                    gtag('event', 'content_cta_click', {
+                        cta_surface: 'sebatdon_calc_related',
+                        destination: link.getAttribute('href'),
+                        source: 'sebatdon_calc',
+                        lang: lang
+                    });
+                }
+            });
+        }
+    });
+}
