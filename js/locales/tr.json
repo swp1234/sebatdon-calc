@@ -95,5 +95,21 @@
     "taxRefundPreview": "Vergi İadesi",
     "unitConverter": "Birim Dönüştürücü",
     "bmiCalculator": "VKİ Hesaplayıcı"
+  },
+  "about": {
+    "toggle": "Hediye Harçlık Hesaplayıcı ve Aile Ekonomisi Hakkında",
+    "heading1": "Kültürel Antropoloji ve Karşılıklı Dayanışma Ekonomisi",
+    "text1": "Yeni yıl ve bayram harçlığı geleneği, nesiller arası sevgi ve dayanışmayı simgeleyen köklü bir kültürel armağanlaşma ritüelidir.",
+    "heading2": "Ev Bütçesi Planlaması ve Anket Ortalamaları",
+    "text2": "Bayram harcamaları bütçe yönetiminde önemli bir yer tutar. Hesaplayıcımız, ailelerin bütçelerini aşmadan bayram neşesini paylaşmalarına yardımcı olur.",
+    "faqTitle": "Sıkça Sorulan Sorular (FAQ)",
+    "faq1Q": "Önerilen tutarlar nasıl belirlenir?",
+    "faq1A": "Farklı yaş gruplarına (çocuklar, öğrenciler, büyükler) yönelik tüketici anketleri ve pazar ortalamaları baz alınır.",
+    "faq2Q": "Önceden bütçe simülasyonu yapmanın faydası nedir?",
+    "faq2A": "Beklenmedik masrafların önüne geçerek aile bütçesini güvende tutar.",
+    "faq3Q": "Girdiğim isimler veya para miktarları kaydediliyor mu?",
+    "faq3A": "Asla. Tüm hesaplama işlemleri %100 tarayıcınızda yerel gerçekleşir.",
+    "reviewDate": "Editoryal İnceleme: Kasım 2026",
+    "reviewTeam": "DopaBrain Kültürel Ekonomi ve Aile Finansı Serisi"
   }
 }

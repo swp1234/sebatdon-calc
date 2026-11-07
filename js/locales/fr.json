@@ -95,5 +95,21 @@
     "taxRefundPreview": "Remboursement fiscal",
     "unitConverter": "Convertisseur d'unités",
     "bmiCalculator": "Calculateur IMC"
+  },
+  "about": {
+    "toggle": "À propos du Calculateur d'Étrennes & Économie Familiale",
+    "heading1": "Anthropologie Culturelle et Don Réciproque",
+    "text1": "Les étrennes traditionnelles du Nouvel An incarnent la théorie du don de Marcel Mauss : une célébration de la solidarité entre générations et un vœu partagé de prospérité.",
+    "heading2": "Gestion Budgétaire et Repères Statistiques",
+    "text2": "Les dépenses festives constituent un poste budgétaire important. Notre outil réunit les médianes des enquêtes de consommation par tranche d'âge pour une gestion sereine.",
+    "faqTitle": "Foire Aux Questions (FAQ)",
+    "faq1Q": "Comment sont fixés les montants conseillés ?",
+    "faq1A": "Ils s'appuient sur les moyennes issues d'enquêtes démographiques et d'habitudes de consommation selon l'âge des proches.",
+    "faq2Q": "Quel est l'intérêt d'un calcul prévisionnel ?",
+    "faq2A": "Il évite les déséquilibres budgétaires et permet de vivre les fêtes en toute quiétude financière.",
+    "faq3Q": "Mes données personnelles sont-elles conservées ?",
+    "faq3A": "Jamais. Tout calcul s'effectue intégralement en local dans votre navigateur.",
+    "reviewDate": "Revue Éditoriale : Novembre 2026",
+    "reviewTeam": "DopaBrain Économie Culturelle & Finances Domestiques"
   }
 }

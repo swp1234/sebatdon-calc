@@ -95,5 +95,21 @@
     "taxRefundPreview": "Steuererstattung",
     "unitConverter": "Einheitenumrechner",
     "bmiCalculator": "BMI-Rechner"
+  },
+  "about": {
+    "toggle": "Über den Festgeld-Rechner & Haushaltsökonomie",
+    "heading1": "Kulturanthropologie & die Ökonomie des Schenkens",
+    "text1": "Traditionelle Geldgeschenke zum Neujahrsfest beruhen auf Marcel Mauss' Gabentheorie über generationenübergreifende Reziprozität und familiäre Verbundenheit.",
+    "heading2": "Haushaltsplanung & empirische Vergleichswerte",
+    "text2": "Festtagsausgaben können das Haushaltsbudget belasten. Unser Rechner stützt sich auf demografische Mittelwerte, um Familien eine entspannte und vorausschauende Finanzplanung zu ermöglichen.",
+    "faqTitle": "Häufig gestellte Fragen (FAQ)",
+    "faq1Q": "Wie werden die Empfehlungen ermittelt?",
+    "faq1A": "Sie basieren auf statistischen Erhebungen nach Altersgruppen (vom Kleinkind bis zu den Großeltern), angepasst an übliche Festtagsnormen.",
+    "faq2Q": "Warum ist die Vorabkalkulation sinnvoll?",
+    "faq2A": "Sie schützt vor Budgetüberraschungen und sorgt dafür, dass die Freude am Beisammensein im Vordergrund steht.",
+    "faq3Q": "Werden persönliche Eingaben extern gespeichert?",
+    "faq3A": "Niemals. Sämtliche Kalkulationen laufen zu 100 % lokal in Ihrem Browser.",
+    "reviewDate": "Redaktionelle Prüfung: November 2026",
+    "reviewTeam": "DopaBrain Kulturökonomie & Haushaltsfinanzen"
   }
 }

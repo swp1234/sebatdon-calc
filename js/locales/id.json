@@ -95,5 +95,21 @@
     "taxRefundPreview": "Pengembalian Pajak",
     "unitConverter": "Konverter Satuan",
     "bmiCalculator": "Kalkulator BMI"
+  },
+  "about": {
+    "toggle": "Tentang Kalkulator Uang Hadiah & Manajemen Keuangan Keluarga",
+    "heading1": "Antropologi Budaya dan Tradisi Berbagi Rezeki",
+    "text1": "Tradisi memberi uang saat perayaan Tahun Baru (seperti Sebaetdon di Korea atau Angpao) mencerminkan teori pertukaran Marcel Mauss tentang solidaritas antargenerasi dan ungkapan syukur keluarga.",
+    "heading2": "Perencanaan Anggaran Rumah Tangga & Survei Konsumen",
+    "text2": "Pengeluaran hari raya membutuhkan perencanaan matang. Alat ini menyajikan rujukan rata-rata berdasarkan kelompok usia untuk menjaga kestabilan finansial keluarga.",
+    "faqTitle": "Pertanyaan yang Sering Diajukan (FAQ)",
+    "faq1Q": "Bagaimana rekomendasi nominal ditentukan?",
+    "faq1A": "Berdasarkan survei konsumen demografis menurut jenjang usia (balita, sekolah, kuliah, dan orang tua).",
+    "faq2Q": "Apa manfaat menghitung anggaran uang saku sebelumnya?",
+    "faq2A": "Mencegah pembengkakan pengeluaran mendadak sehingga suasana hari raya tetap hangat dan tenang.",
+    "faq3Q": "Apakah nama dan nominal saya dikirim ke server luar?",
+    "faq3A": "Sama sekali tidak. Seluruh komputasi berjalan 100% lokal di peramban Anda.",
+    "reviewDate": "Tinjauan Editorial: November 2026",
+    "reviewTeam": "DopaBrain Seri Ekonomi Budaya & Keuangan Rumah Tangga"
   }
 }

@@ -95,5 +95,21 @@
     "taxRefundPreview": "Reembolso fiscal",
     "unitConverter": "Conversor de unidades",
     "bmiCalculator": "Calculadora IMC"
+  },
+  "about": {
+    "toggle": "Sobre a Calculadora de Presentes em Dinheiro e Economia Doméstica",
+    "heading1": "Antropologia Cultural e Economia da Reciprocidade",
+    "text1": "A tradição de presentear dinheiro em celebrações de Ano Novo reflete a teoria do dom de Marcel Mauss, consolidando a união familiar e o apoio mútuo entre gerações.",
+    "heading2": "Planejamento Financeiro Familiar e Médias Nacionais",
+    "text2": "Despesas de final de ano e feriados exigem planejamento. A calculadora utiliza referências estatísticas por faixa etária para equilibrar as contas do lar.",
+    "faqTitle": "Perguntas Frequentes (FAQ)",
+    "faq1Q": "Como os valores sugeridos são calculados?",
+    "faq1A": "Com base em pesquisas demográficas e médias de mercado por faixa de idade (crianças, jovens e idosos).",
+    "faq2Q": "Por que simular as despesas de presentes com antecedência?",
+    "faq2A": "Para evitar surpresas no orçamento e desfrutar das comemorações com segurança e harmonia.",
+    "faq3Q": "Os dados de parentes e valores são transmitidos?",
+    "faq3A": "Nunca. Todo o processamento ocorre 100% localmente no navegador.",
+    "reviewDate": "Revisão Editorial: Novembro 2026",
+    "reviewTeam": "DopaBrain Série de Economia Cultural e Finanças Domésticas"
   }
 }

@@ -95,5 +95,21 @@
     "taxRefundPreview": "Reembolso fiscal",
     "unitConverter": "Conversor de unidades",
     "bmiCalculator": "Calculadora IMC"
+  },
+  "about": {
+    "toggle": "Acerca de la Calculadora de Dinero Festivo y Economía Doméstica",
+    "heading1": "Antropología Cultural y Economía de la Reciprocidad",
+    "text1": "El intercambio de regalos monetarios en Año Nuevo (como el Sebaetdon coreano o el Hongbao chino) encarna la teoría del don de Marcel Mauss: un acto ritual de solidaridad intergeneracional y buenos deseos para el porvenir.",
+    "heading2": "Planificación del Presupuesto Familiar y Encuestas Nacionales",
+    "text2": "Los regalos de temporada representan un gasto doméstico relevante. Esta herramienta recopila promedios estadísticos para que cada hogar planifique un presupuesto sereno y libre de estrés financiero.",
+    "faqTitle": "Preguntas Frecuentes (FAQ)",
+    "faq1Q": "¿En qué se basan las cantidades recomendadas?",
+    "faq1A": "Se calculan a partir de encuestas de consumo y tendencias demográficas por rango de edad (infancia, escolaridad, juventud y mayores).",
+    "faq2Q": "¿Por qué es útil prever el balance de regalos?",
+    "faq2A": "Permite contrastar gastos e ingresos previstos para preservar la salud financiera del hogar durante las festividades.",
+    "faq3Q": "¿Se guardan los nombres o importes en servidores externos?",
+    "faq3A": "Nunca. Toda la información se procesa 100% de manera local en el navegador.",
+    "reviewDate": "Revisión Editorial: Noviembre 2026",
+    "reviewTeam": "DopaBrain Serie de Economía Cultural y Finanzas del Hogar"
   }
 }

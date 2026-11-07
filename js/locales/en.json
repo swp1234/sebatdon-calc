@@ -95,5 +95,21 @@
     "taxRefundPreview": "Tax Refund",
     "unitConverter": "Unit Converter",
     "bmiCalculator": "BMI Calculator"
+  },
+  "about": {
+    "toggle": "About Lunar New Year Gift Money & Behavioral Economics",
+    "heading1": "Cultural Anthropology & Reciprocal Gift Economics",
+    "text1": "Lunar New Year gift money (Korean 세뱃돈, Chinese 压岁钱/红包, Japanese お年玉) embodies the anthropological tradition of generational reciprocity (Marcel Mauss's gift theory). Older generations offer blessings of vitality and auspicious prosperity to younger generations, while children honor elders through respectful ancestral ceremonies.",
+    "heading2": "Household Budget Planning & National Survey Benchmarks",
+    "text2": "Holiday gift expenditures represent a significant seasonal budget item. Our calculator compiles recent national statistical surveys and consumer trend medians across education levels, enabling families to plan balanced holiday finances and celebrate with peace of mind.",
+    "faqTitle": "Frequently Asked Questions",
+    "faq1Q": "How are the recommended gift amounts determined?",
+    "faq1A": "Recommendations are benchmarked against national demographic polling and consumer surveys across age brackets (preschool, elementary, middle school, high school, university, parents, in-laws), adjusted for typical holiday budgeting norms.",
+    "faq2Q": "What cultural and economic functions does holiday cash gifting serve?",
+    "faq2A": "Anthropologically, cash gifting on Lunar New Year symbolizes generational blessing, good fortune, and family solidarity. Financially, pre-calculating total outlays helps prevent holiday household budget shocks.",
+    "faq3Q": "Are my family names or budget totals stored on external servers?",
+    "faq3A": "Never. All budgeting algorithms and recipient lists operate 100% locally within your device's web browser. No personal financial data or family names are ever transmitted or saved externally.",
+    "reviewDate": "Editorial Review: November 2026",
+    "reviewTeam": "DopaBrain Cultural Economics & Household Finance Series"
   }
 }
