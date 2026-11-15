@@ -84,7 +84,11 @@
     "facebook": "Facebook",
     "copyLink": "Copiar Link",
     "copied": "Link copiado!",
-    "twitterText": "Meu total de presentes de Ano Novo: {amount}! Preparei presentes para {count} pessoas"
+    "twitterText": "Meu total de presentes de Ano Novo: {amount}! Preparei presentes para {count} pessoas",
+    "saveCard": "Salvar Cartão",
+    "cardTitle": "Resumo de Presentes em Dinheiro",
+    "cardSub": "Guia por Idade · Orçamento Familiar · Média",
+    "downloadStarted": "Cartão 1080×1920 salvo!"
   },
   "footer": {
     "back": "Inicio DopaBrain"
@@ -111,5 +115,16 @@
     "faq3A": "Nunca. Todo o processamento ocorre 100% localmente no navegador.",
     "reviewDate": "Revisão Editorial: Novembro 2026",
     "reviewTeam": "DopaBrain Série de Economia Cultural e Finanças Domésticas"
+  },
+  "curated": {
+    "badge": "RECOMENDADO",
+    "title": "Livros Recomendados de Finanças Familiares",
+    "subtitle": "Leituras para ensinar educação financeira infantil e planejar presentes festivos",
+    "book1Title": "The Opposite of Spoiled",
+    "book1Author": "Ron Lieber",
+    "book1Desc": "Estratégias práticas para ensinar crianças a lidar bem com presentes em dinheiro.",
+    "book2Title": "A Psicologia Financeira",
+    "book2Author": "Morgan Housel",
+    "book2Desc": "Lições sobre equilíbrio financeiro, generosidade e escolhas conscientes."
   }
 }

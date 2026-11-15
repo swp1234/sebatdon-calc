@@ -84,7 +84,11 @@
     "facebook": "Facebook",
     "copyLink": "Copiar Enlace",
     "copied": "Enlace copiado!",
-    "twitterText": "Mi total de aguinaldos: {amount}! Prepare regalos para {count} personas"
+    "twitterText": "Mi total de aguinaldos: {amount}! Prepare regalos para {count} personas",
+    "saveCard": "Guardar Tarjeta",
+    "cardTitle": "Resumen de Presupuesto de Regalos",
+    "cardSub": "Guía por Parentesco · Balance Familiar · Referencia",
+    "downloadStarted": "¡Tarjeta 1080×1920 guardada!"
   },
   "footer": {
     "back": "Inicio DopaBrain"
@@ -111,5 +115,16 @@
     "faq3A": "Nunca. Toda la información se procesa 100% de manera local en el navegador.",
     "reviewDate": "Revisión Editorial: Noviembre 2026",
     "reviewTeam": "DopaBrain Serie de Economía Cultural y Finanzas del Hogar"
+  },
+  "curated": {
+    "badge": "LECTURA",
+    "title": "Libros Recomendados sobre Finanzas Familiares",
+    "subtitle": "Lecturas clave para educar financieramente a los niños y equilibrar regalos festivos",
+    "book1Title": "The Opposite of Spoiled",
+    "book1Author": "Ron Lieber",
+    "book1Desc": "Guía práctica para enseñar a los hijos generosidad y buen manejo del dinero recibido.",
+    "book2Title": "La psicología del dinero",
+    "book2Author": "Morgan Housel",
+    "book2Desc": "Lecciones atemporales sobre hábitos financieros saludables y serenidad económica."
   }
 }

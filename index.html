@@ -7,7 +7,7 @@
     <meta name="robots" content="max-image-preview:large">
     <title>Lucky Money Calculator - Free New Year Tool | DopaBrain</title>
     <meta name="description" content="Calculate the perfect lucky money amount for Lunar New Year by relationship. Analyze total spending and compare with national averages. Try free!">
-    <meta name="dateModified" content="2026-11-07">
+    <meta name="dateModified" content="2026-11-15">
     <meta name="keywords" content="세뱃돈, 세뱃돈 금액, 설날, 명절, 세배, 세뱃돈 계산기, 세뱃돈 적정 금액, 조카 세뱃돈, 부모님 세뱃돈">
     <link rel="canonical" href="https://dopabrain.com/sebatdon-calc/">
     <meta name="theme-color" content="#ca8a04">
@@ -39,18 +39,18 @@
     <meta name="twitter:image" content="https://dopabrain.com/portal/img/og/sebatdon-calc.png">
     <meta name="twitter:site" content="@dopabrain">
     <!-- hreflang for multilingual SEO -->
-    <link rel="alternate" hreflang="ko" href="https://dopabrain.com/sebatdon-calc/">
-    <link rel="alternate" hreflang="en" href="https://dopabrain.com/sebatdon-calc/">
-    <link rel="alternate" hreflang="zh" href="https://dopabrain.com/sebatdon-calc/">
-    <link rel="alternate" hreflang="hi" href="https://dopabrain.com/sebatdon-calc/">
-    <link rel="alternate" hreflang="ru" href="https://dopabrain.com/sebatdon-calc/">
-    <link rel="alternate" hreflang="ja" href="https://dopabrain.com/sebatdon-calc/">
-    <link rel="alternate" hreflang="es" href="https://dopabrain.com/sebatdon-calc/">
-    <link rel="alternate" hreflang="pt" href="https://dopabrain.com/sebatdon-calc/">
-    <link rel="alternate" hreflang="id" href="https://dopabrain.com/sebatdon-calc/">
-    <link rel="alternate" hreflang="tr" href="https://dopabrain.com/sebatdon-calc/">
-    <link rel="alternate" hreflang="de" href="https://dopabrain.com/sebatdon-calc/">
-    <link rel="alternate" hreflang="fr" href="https://dopabrain.com/sebatdon-calc/">
+    <link rel="alternate" hreflang="ko" href="https://dopabrain.com/sebatdon-calc/?lang=ko">
+    <link rel="alternate" hreflang="en" href="https://dopabrain.com/sebatdon-calc/?lang=en">
+    <link rel="alternate" hreflang="zh" href="https://dopabrain.com/sebatdon-calc/?lang=zh">
+    <link rel="alternate" hreflang="hi" href="https://dopabrain.com/sebatdon-calc/?lang=hi">
+    <link rel="alternate" hreflang="ru" href="https://dopabrain.com/sebatdon-calc/?lang=ru">
+    <link rel="alternate" hreflang="ja" href="https://dopabrain.com/sebatdon-calc/?lang=ja">
+    <link rel="alternate" hreflang="es" href="https://dopabrain.com/sebatdon-calc/?lang=es">
+    <link rel="alternate" hreflang="pt" href="https://dopabrain.com/sebatdon-calc/?lang=pt">
+    <link rel="alternate" hreflang="id" href="https://dopabrain.com/sebatdon-calc/?lang=id">
+    <link rel="alternate" hreflang="tr" href="https://dopabrain.com/sebatdon-calc/?lang=tr">
+    <link rel="alternate" hreflang="de" href="https://dopabrain.com/sebatdon-calc/?lang=de">
+    <link rel="alternate" hreflang="fr" href="https://dopabrain.com/sebatdon-calc/?lang=fr">
     <link rel="alternate" hreflang="x-default" href="https://dopabrain.com/sebatdon-calc/">
     <!-- Schema.org JSON-LD -->
     <script type="application/ld+json">
@@ -364,6 +364,9 @@
                     <div class="share-section">
                         <h3 data-i18n="share.title">결과 공유하기</h3>
                         <div class="share-buttons">
+                            <button type="button" class="btn btn-share btn-save-card" id="saveCardBtn" aria-label="Save Summary Card">
+                                📸 <span data-i18n="share.saveCard">Save Card</span>
+                            </button>
                             <button class="btn btn-share btn-twitter" id="share-twitter" aria-label="Twitter">
                                 <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
                                 <span data-i18n="share.twitter">Twitter</span>
@@ -377,6 +380,7 @@
                                 <span data-i18n="share.copyLink">링크 복사</span>
                             </button>
                         </div>
+                        <canvas id="shareCanvas" width="1080" height="1920" style="display:none;" aria-hidden="true"></canvas>
                     </div>
 
                     <!-- Restart -->
@@ -387,9 +391,36 @@
 
 
 
+        <!-- Curated Family Finance Books -->
+        <section class="curated-resources-card" id="curated-resources-card" aria-label="Recommended Family Finance Books">
+            <div class="curated-card-header">
+                <span class="curated-badge" data-i18n="curated.badge">BOOK PICK</span>
+                <h2 data-i18n="curated.title">Recommended Family Finance &amp; Money Habits Books</h2>
+                <p data-i18n="curated.subtitle">Curated reads on teaching kids generosity, budgeting holiday gifts, and smart money habits</p>
+            </div>
+            <div class="curated-list">
+                <a href="https://www.amazon.com/dp/0062247018?tag=dopabrain-20" target="_blank" rel="sponsored noopener noreferrer" class="curated-item" data-item-id="opposite-of-spoiled" data-resource-type="book">
+                    <span class="curated-icon" aria-hidden="true">🎁</span>
+                    <div class="curated-info">
+                        <strong data-i18n="curated.book1Title">The Opposite of Spoiled</strong>
+                        <span class="curated-author" data-i18n="curated.book1Author">Ron Lieber</span>
+                        <span class="curated-desc" data-i18n="curated.book1Desc">Practical guidance for raising grounded, generous kids who understand holiday gift money.</span>
+                    </div>
+                </a>
+                <a href="https://www.amazon.com/dp/0857197681?tag=dopabrain-20" target="_blank" rel="sponsored noopener noreferrer" class="curated-item" data-item-id="psychology-of-money" data-resource-type="book">
+                    <span class="curated-icon" aria-hidden="true">💰</span>
+                    <div class="curated-info">
+                        <strong data-i18n="curated.book2Title">The Psychology of Money</strong>
+                        <span class="curated-author" data-i18n="curated.book2Author">Morgan Housel</span>
+                        <span class="curated-desc" data-i18n="curated.book2Desc">Timeless lessons on spending judgment, generosity, and long-term household peace of mind.</span>
+                    </div>
+                </a>
+            </div>
+        </section>
+
         <!-- About Section -->
         <section class="about-section collapsible-section" id="about-section">
-          <details>
+          <details open>
             <summary data-i18n="about.toggle" style="min-height:48px;display:flex;align-items:center;justify-content:space-between;cursor:pointer;">About Lunar New Year Gift Money & Behavioral Economics</summary>
             <div class="about-content">
               <h2 data-i18n="about.heading1" style="font-size:16px;color:var(--primary);margin:16px 0 8px;">Cultural Anthropology & Reciprocal Gift Economics</h2>
@@ -423,9 +454,9 @@
 
         <!-- DopaBrain Footer -->
         <footer class="game-footer">
-            <a href="https://dopabrain.com/portal/" class="back-link" data-i18n="footer.back">
+            <a href="/portal/" class="back-link">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16"><path d="m15 18-6-6 6-6"></path></svg>
-                DopaBrain 홈
+                <span data-i18n="footer.back">DopaBrain 홈</span>
             </a>
         </footer>
     </div>

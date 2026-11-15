@@ -84,7 +84,11 @@
     "facebook": "Facebook",
     "copyLink": "复制链接",
     "copied": "已复制！",
-    "twitterText": "今年红包总额：{amount}！为{count}人准备了红包🧧"
+    "twitterText": "今年红包总额：{amount}！为{count}人准备了红包🧧",
+    "saveCard": "保存预算卡片",
+    "cardTitle": "春节压岁钱预算总结卡",
+    "cardSub": "亲属参照 · 家庭收支 · 平均对比",
+    "downloadStarted": "已保存 1080×1920 压岁钱总结卡片！"
   },
   "footer": {
     "back": "DopaBrain 首页"
@@ -111,5 +115,16 @@
     "faq3A": "绝不。所有名单与收支模拟计算均在您的设备浏览器本地运行，不上传任何个人财务隐私。",
     "reviewDate": "学术与编辑审阅：2026年11月",
     "reviewTeam": "DopaBrain 文化经济学与家庭财务研究组"
+  },
+  "curated": {
+    "badge": "精选好书",
+    "title": "家庭财商教育与理性消费推荐书籍",
+    "subtitle": "以压岁钱规划为契机，培养孩子金钱观与家庭理性收支的好书单",
+    "book1Title": "给孩子的金钱第一课（The Opposite of Spoiled）",
+    "book1Author": "Ron Lieber",
+    "book1Desc": "探讨如何借压岁钱和零花钱引导孩子理解储蓄、分享与节制。",
+    "book2Title": "金钱心理学（The Psychology of Money）",
+    "book2Author": "Morgan Housel",
+    "book2Desc": "讲述如何在人情与理性间平衡开支，获得长期财务从容感。"
   }
 }

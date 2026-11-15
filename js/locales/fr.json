@@ -84,7 +84,11 @@
     "facebook": "Facebook",
     "copyLink": "Copier le Lien",
     "copied": "Lien copie!",
-    "twitterText": "Mes etrennes du Nouvel An: {amount}! Cadeaux prepares pour {count} personnes"
+    "twitterText": "Mes etrennes du Nouvel An: {amount}! Cadeaux prepares pour {count} personnes",
+    "saveCard": "Enregistrer la carte",
+    "cardTitle": "Bilan Budget Étrennes",
+    "cardSub": "Repères par Âge · Équilibre Familial · Moyenne",
+    "downloadStarted": "Carte budget 1080×1920 enregistrée !"
   },
   "footer": {
     "back": "DopaBrain Accueil"
@@ -111,5 +115,16 @@
     "faq3A": "Jamais. Tout calcul s'effectue intégralement en local dans votre navigateur.",
     "reviewDate": "Revue Éditoriale : Novembre 2026",
     "reviewTeam": "DopaBrain Économie Culturelle & Finances Domestiques"
+  },
+  "curated": {
+    "badge": "LIVRE",
+    "title": "Livres Recommandés Finances Familiales",
+    "subtitle": "Sélection d’ouvrages sur l’éducation financière des enfants et la gestion des fêtes",
+    "book1Title": "The Opposite of Spoiled",
+    "book1Author": "Ron Lieber",
+    "book1Desc": "Conseils concrets pour apprendre aux enfants à gérer étrennes et argent de poche.",
+    "book2Title": "La Psychologie de l’argent",
+    "book2Author": "Morgan Housel",
+    "book2Desc": "Réflexions intemporelles sur les habitudes de dépense et la sérénité financière."
   }
 }

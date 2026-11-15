@@ -1221,3 +1221,123 @@ body {
     color: var(--text-muted, #94a3b8);
     line-height: 1.7;
 }
+
+.btn-save-card {
+    background: linear-gradient(135deg, rgba(202, 138, 4, 0.35), rgba(234, 179, 8, 0.25)) !important;
+    border-color: rgba(202, 138, 4, 0.6) !important;
+}
+
+.back-link {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 44px;
+    min-width: 44px;
+    padding: 8px 14px;
+    box-sizing: border-box;
+    gap: 6px;
+}
+
+/* Curated Family Finance Books */
+.curated-resources-card {
+    margin: 20px auto 0;
+    padding: 18px 16px;
+    background: rgba(255, 255, 255, 0.04);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 16px;
+    box-sizing: border-box;
+}
+
+.curated-card-header {
+    margin-bottom: 12px;
+}
+
+.curated-badge {
+    display: inline-block;
+    padding: 3px 9px;
+    border-radius: 999px;
+    background: rgba(202, 138, 4, 0.18);
+    color: #eab308;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.4px;
+    margin-bottom: 6px;
+}
+
+.curated-card-header h2 {
+    margin: 0 0 4px;
+    font-size: 16px;
+    color: var(--text, #fff);
+}
+
+.curated-card-header p {
+    margin: 0;
+    font-size: 12.5px;
+    line-height: 1.5;
+    color: var(--text-muted, #94a3b8);
+}
+
+.curated-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.curated-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    padding: 12px 14px;
+    min-height: 44px;
+    min-width: 44px;
+    box-sizing: border-box;
+    border-radius: 12px;
+    background: rgba(255, 255, 255, 0.04);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    text-decoration: none;
+    color: var(--text, #fff);
+    transition: border-color 0.2s ease, transform 0.15s ease;
+}
+
+.curated-item:hover {
+    border-color: #eab308;
+    transform: translateY(-1px);
+}
+
+.curated-icon {
+    font-size: 24px;
+    line-height: 1;
+    flex-shrink: 0;
+    margin-top: 2px;
+}
+
+.curated-info {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    min-width: 0;
+    text-align: left;
+}
+
+.curated-info strong {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.curated-author {
+    font-size: 12px;
+    font-weight: 600;
+    color: #eab308;
+}
+
+.curated-desc {
+    font-size: 12px;
+    line-height: 1.45;
+    color: var(--text-muted, #94a3b8);
+}
+
+[data-theme="light"] .curated-item {
+    background: rgba(202, 138, 4, 0.07);
+    border-color: rgba(202, 138, 4, 0.22);
+    color: #1e293b;
+}

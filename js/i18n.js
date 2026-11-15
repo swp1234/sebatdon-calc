@@ -7,18 +7,30 @@
       this.supportedLanguages = ['ko', 'en', 'ja', 'zh', 'es', 'pt', 'id', 'tr', 'de', 'fr', 'hi', 'ru'];
       this.currentLang = this.detectLanguage();
       this.isLoading = false;
+      document.documentElement.lang = this.currentLang;
     };
 
     I18n.prototype.detectLanguage = function() {
-      var saved = localStorage.getItem('preferredLanguage');
+      try {
+        var params = new URLSearchParams(window.location.search || '');
+        var urlLang = params.get('lang');
+        if (urlLang && this.supportedLanguages.indexOf(urlLang) !== -1) {
+          return urlLang;
+        }
+      } catch (e) {}
+      var saved = localStorage.getItem('preferredLanguage') || localStorage.getItem('app_language');
       if (saved && this.supportedLanguages.indexOf(saved) !== -1) {
         return saved;
       }
-      var browserLang = navigator.language.split('-')[0].toLowerCase();
+      var browserLang = (navigator.language || 'en').split('-')[0].toLowerCase();
       if (this.supportedLanguages.indexOf(browserLang) !== -1) {
         return browserLang;
       }
-      return 'ko';
+      return 'en';
+    };
+
+    I18n.prototype.getCurrentLanguage = function() {
+      return this.currentLang;
     };
 
     I18n.prototype.loadTranslations = function(lang) {
@@ -88,6 +100,7 @@
 
       self.currentLang = lang;
       localStorage.setItem('preferredLanguage', lang);
+      document.documentElement.lang = lang;
       return self.loadTranslations(lang).then(function() {
         self.updateUI();
         self.updateLangButtons();

@@ -115,6 +115,7 @@
             updateRelationLabels();
             updateRecipientsList();
             updateTotalDisplay();
+            if (typeof initRelatedFunnels === 'function') initRelatedFunnels();
           });
         }
         dom.langMenu.classList.add('hidden');
@@ -218,6 +219,11 @@
         dom.introSection.classList.add('hidden');
         dom.calcSection.classList.remove('hidden');
         dom.calcSection.scrollIntoView({ behavior: 'smooth' });
+        trackEvent('test_start', {
+          app_name: 'sebatdon-calc',
+          mode: 'holiday_budget',
+          lang: window.i18n ? window.i18n.currentLang : 'en'
+        });
       });
     }
 
@@ -278,10 +284,22 @@
       dom.btnRestart.addEventListener('click', restart);
     }
 
-    // Share buttons
-    document.getElementById('share-twitter').addEventListener('click', shareTwitter);
-    document.getElementById('share-facebook').addEventListener('click', shareFacebook);
-    document.getElementById('share-copy').addEventListener('click', shareCopyLink);
+    // Share & Story Card buttons
+    document.getElementById('saveCardBtn')?.addEventListener('click', generateSebatdonCard);
+    document.getElementById('share-twitter')?.addEventListener('click', shareTwitter);
+    document.getElementById('share-facebook')?.addEventListener('click', shareFacebook);
+    document.getElementById('share-copy')?.addEventListener('click', shareCopyLink);
+
+    document.querySelectorAll('#curated-resources-card a.curated-item').forEach(function(link) {
+      link.addEventListener('click', function() {
+        trackEvent('curated_resource_click', {
+          app_name: 'sebatdon-calc',
+          resource_type: link.dataset.resourceType || 'book',
+          item_id: link.dataset.itemId || '',
+          lang: window.i18n ? window.i18n.currentLang : 'en'
+        });
+      });
+    });
   }
 
   function updateAddButton() {
@@ -438,11 +456,12 @@
     dom.resultSection.classList.remove('hidden');
     dom.resultSection.scrollIntoView({ behavior: 'smooth' });
 
-    // GA4 event
-    trackEvent('calc_complete', {
-      total_expense: totalExpense,
-      total_income: totalIncome,
-      recipients_count: state.recipients.length
+    // Clean GA4 telemetry (no raw monetary totals)
+    var resultBucket = diff > 0 ? 'above_avg' : (diff < 0 ? 'below_avg' : 'balanced');
+    trackEvent('test_complete', {
+      app_name: 'sebatdon-calc',
+      result_type: resultBucket,
+      lang: window.i18n ? window.i18n.currentLang : 'en'
     });
   }
 
@@ -559,39 +578,143 @@
   }
 
   // ---- Share ----
+  function buildShareUrl() {
+    var lang = window.i18n ? window.i18n.currentLang : 'en';
+    var url = new URL('https://dopabrain.com/sebatdon-calc/');
+    url.searchParams.set('lang', lang);
+    url.searchParams.set('utm_source', 'share');
+    return url.toString();
+  }
+
   function shareTwitter() {
     var total = calcTotal();
+    var lang = window.i18n ? window.i18n.currentLang : 'en';
     var text = window.i18n
       ? window.i18n.t('share.twitterText').replace('{amount}', formatKRW(total)).replace('{count}', state.recipients.length)
-      : '\uC138\uBC43\uB3C8 \uACC4\uC0B0 \uACB0\uACFC: ' + formatKRW(total);
-    var url = 'https://dopabrain.com/sebatdon-calc/';
-    window.open('https://twitter.com/intent/tweet?text=' + encodeURIComponent(text) + '&url=' + encodeURIComponent(url), '_blank');
-    trackEvent('share', { method: 'twitter' });
+      : 'Holiday gift money summary';
+    var url = buildShareUrl();
+    window.open('https://twitter.com/intent/tweet?text=' + encodeURIComponent(text) + '&url=' + encodeURIComponent(url), '_blank', 'noopener,noreferrer');
+    trackEvent('share', { method: 'twitter', app_name: 'sebatdon-calc', lang: lang });
   }
 
   function shareFacebook() {
-    var url = 'https://dopabrain.com/sebatdon-calc/';
-    window.open('https://www.facebook.com/sharer/sharer.php?u=' + encodeURIComponent(url), '_blank');
-    trackEvent('share', { method: 'facebook' });
+    var lang = window.i18n ? window.i18n.currentLang : 'en';
+    var url = buildShareUrl();
+    window.open('https://www.facebook.com/sharer/sharer.php?u=' + encodeURIComponent(url), '_blank', 'noopener,noreferrer');
+    trackEvent('share', { method: 'facebook', app_name: 'sebatdon-calc', lang: lang });
   }
 
   function shareCopyLink() {
-    var url = 'https://dopabrain.com/sebatdon-calc/';
-    if (navigator.clipboard) {
+    var lang = window.i18n ? window.i18n.currentLang : 'en';
+    var url = buildShareUrl();
+    if (navigator.clipboard && navigator.clipboard.writeText) {
       navigator.clipboard.writeText(url).then(function() {
-        showToast(window.i18n ? window.i18n.t('share.copied') : '\uBCF5\uC0AC\uB418\uC5C8\uC2B5\uB2C8\uB2E4!');
+        showToast(window.i18n ? window.i18n.t('share.copied') : 'Link copied!');
+      }).catch(function() {
+        showToast(window.i18n ? window.i18n.t('share.copied') : 'Link copied!');
       });
     } else {
-      // Fallback
       var input = document.createElement('input');
       input.value = url;
       document.body.appendChild(input);
       input.select();
       document.execCommand('copy');
       document.body.removeChild(input);
-      showToast(window.i18n ? window.i18n.t('share.copied') : '\uBCF5\uC0AC\uB418\uC5C8\uC2B5\uB2C8\uB2E4!');
+      showToast(window.i18n ? window.i18n.t('share.copied') : 'Link copied!');
     }
-    trackEvent('share', { method: 'copy_link' });
+    trackEvent('share', { method: 'copy_link', app_name: 'sebatdon-calc', lang: lang });
+  }
+
+  function generateSebatdonCard() {
+    var canvas = document.getElementById('shareCanvas');
+    if (!canvas || !canvas.getContext) return;
+    var ctx = canvas.getContext('2d');
+    var W = 1080;
+    var H = 1920;
+    canvas.width = W;
+    canvas.height = H;
+
+    var grad = ctx.createLinearGradient(0, 0, W, H);
+    grad.addColorStop(0, '#1e1b4b');
+    grad.addColorStop(0.5, '#2b200d');
+    grad.addColorStop(1, '#0f172a');
+    ctx.fillStyle = grad;
+    ctx.fillRect(0, 0, W, H);
+
+    ctx.fillStyle = 'rgba(202, 138, 4, 0.16)';
+    ctx.beginPath();
+    ctx.arc(540, 420, 380, 0, Math.PI * 2);
+    ctx.fill();
+
+    var lang = window.i18n ? window.i18n.currentLang : 'en';
+    var title = (window.i18n && window.i18n.t('share.cardTitle') !== 'share.cardTitle')
+      ? window.i18n.t('share.cardTitle')
+      : 'Holiday Gift Budget Summary';
+    var sub = (window.i18n && window.i18n.t('share.cardSub') !== 'share.cardSub')
+      ? window.i18n.t('share.cardSub')
+      : 'Relationship Guide · Household Balance · Benchmarks';
+
+    ctx.fillStyle = '#eab308';
+    ctx.font = 'bold 34px sans-serif';
+    ctx.textAlign = 'center';
+    ctx.fillText('DOPABRAIN HOLIDAY FINANCE', W / 2, 160);
+
+    ctx.fillStyle = '#ffffff';
+    ctx.font = 'bold 58px sans-serif';
+    ctx.fillText(title.slice(0, 32), W / 2, 260);
+
+    ctx.fillStyle = '#cbd5e1';
+    ctx.font = '32px sans-serif';
+    ctx.fillText(sub.slice(0, 50), W / 2, 325);
+
+    var benchmarks = [
+      ['Preschool / Elementary', '10,000 - 30,000 KRW benchmark'],
+      ['Middle & High School', '50,000 - 100,000 KRW benchmark'],
+      ['University / Parents', '100,000 - 300,000 KRW benchmark'],
+      ['Total Outlay Planned', formatKRW(calcTotal()) + ' (' + state.recipients.length + ' recipients)']
+    ];
+
+    var y = 480;
+    benchmarks.forEach(function(item) {
+      ctx.fillStyle = 'rgba(255, 255, 255, 0.06)';
+      ctx.beginPath();
+      ctx.roundRect(80, y, W - 160, 220, 26);
+      ctx.fill();
+      ctx.strokeStyle = 'rgba(234, 179, 8, 0.35)';
+      ctx.lineWidth = 2;
+      ctx.stroke();
+
+      ctx.textAlign = 'left';
+      ctx.fillStyle = '#eab308';
+      ctx.font = 'bold 34px sans-serif';
+      ctx.fillText(item[0], 120, y + 82);
+
+      ctx.fillStyle = '#f8fafc';
+      ctx.font = 'bold 36px sans-serif';
+      ctx.fillText(item[1], 120, y + 150);
+      y += 260;
+    });
+
+    ctx.textAlign = 'center';
+    ctx.fillStyle = '#eab308';
+    ctx.font = 'bold 34px sans-serif';
+    ctx.fillText('dopabrain.com/sebatdon-calc/?lang=' + lang, W / 2, 1780);
+
+    try {
+      var link = document.createElement('a');
+      link.download = 'dopabrain-gift-budget-' + lang + '.png';
+      link.href = canvas.toDataURL('image/png');
+      link.click();
+    } catch (e) {}
+
+    showToast((window.i18n && window.i18n.t('share.downloadStarted') !== 'share.downloadStarted')
+      ? window.i18n.t('share.downloadStarted')
+      : 'Saved 1080×1920 gift budget card!');
+    trackEvent('save_image', {
+      app_name: 'sebatdon-calc',
+      result_type: 'budget_summary',
+      lang: lang
+    });
   }
 
   // ---- Utilities ----
@@ -647,8 +770,8 @@
 
 // Funnel bridge & language preservation
 function initRelatedFunnels() {
-    const urlParams = new URLSearchParams(window.location.search);
-    const lang = urlParams.get('lang') || (window.i18n ? window.i18n.currentLang : 'ko') || 'ko';
+    const getLang = () => (window.i18n && window.i18n.currentLang) || new URLSearchParams(window.location.search).get('lang') || 'en';
+    const lang = getLang();
     const base = (window.location.origin && window.location.origin !== 'null') ? window.location.origin : 'https://dopabrain.com';
     document.querySelectorAll('.related-grid a').forEach(link => {
         const baseHref = link.getAttribute('data-base-href') || link.getAttribute('href');
@@ -667,7 +790,7 @@ function initRelatedFunnels() {
                         cta_surface: 'sebatdon_calc_related',
                         destination: link.getAttribute('href'),
                         source: 'sebatdon_calc',
-                        lang: lang
+                        lang: getLang()
                     });
                 }
             });

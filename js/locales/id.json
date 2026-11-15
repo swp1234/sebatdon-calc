@@ -84,7 +84,11 @@
     "facebook": "Facebook",
     "copyLink": "Salin Link",
     "copied": "Link disalin!",
-    "twitterText": "Total angpao saya: {amount}! Menyiapkan angpao untuk {count} orang"
+    "twitterText": "Total angpao saya: {amount}! Menyiapkan angpao untuk {count} orang",
+    "saveCard": "Simpan Kartu",
+    "cardTitle": "Ringkasan Anggaran Angpau",
+    "cardSub": "Panduan Usia · Saldo Keluarga · Tolok Ukur",
+    "downloadStarted": "Kartu anggaran 1080×1920 tersimpan!"
   },
   "footer": {
     "back": "DopaBrain Beranda"
@@ -111,5 +115,16 @@
     "faq3A": "Sama sekali tidak. Seluruh komputasi berjalan 100% lokal di peramban Anda.",
     "reviewDate": "Tinjauan Editorial: November 2026",
     "reviewTeam": "DopaBrain Seri Ekonomi Budaya & Keuangan Rumah Tangga"
+  },
+  "curated": {
+    "badge": "PILIHAN",
+    "title": "Buku Rekomendasi Keuangan Keluarga",
+    "subtitle": "Bacaan pilihan tentang literasi keuangan anak dan perencanaan hadiah hari raya",
+    "book1Title": "The Opposite of Spoiled",
+    "book1Author": "Ron Lieber",
+    "book1Desc": "Panduan praktis mendidik anak mengelola uang hadiah secara bijak dan dermawan.",
+    "book2Title": "The Psychology of Money",
+    "book2Author": "Morgan Housel",
+    "book2Desc": "Pelajaran abadi tentang kebijaksanaan pengeluaran dan ketenangan finansial keluarga."
   }
 }

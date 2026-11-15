@@ -84,7 +84,11 @@
     "facebook": "Facebook",
     "copyLink": "Linki Kopyala",
     "copied": "Kopyalandi!",
-    "twitterText": "Bayram harcilik toplami: {amount}! {count} kisi icin hazirladim"
+    "twitterText": "Bayram harcilik toplami: {amount}! {count} kisi icin hazirladim",
+    "saveCard": "Kartı Kaydet",
+    "cardTitle": "Bayram Harçlığı Bütçe Özeti",
+    "cardSub": "Yakınlık Rehberi · Aile Dengesi · Kıyaslama",
+    "downloadStarted": "1080×1920 bütçe kartı indirildi!"
   },
   "footer": {
     "back": "DopaBrain Ana Sayfa"
@@ -111,5 +115,16 @@
     "faq3A": "Asla. Tüm hesaplama işlemleri %100 tarayıcınızda yerel gerçekleşir.",
     "reviewDate": "Editoryal İnceleme: Kasım 2026",
     "reviewTeam": "DopaBrain Kültürel Ekonomi ve Aile Finansı Serisi"
+  },
+  "curated": {
+    "badge": "KİTAP",
+    "title": "Önerilen Aile Finansı ve Tasarruf Kitapları",
+    "subtitle": "Çocuklara para bilinci kazandırmak ve bayram bütçesini dengelemek için seçkin kitaplar",
+    "book1Title": "The Opposite of Spoiled",
+    "book1Author": "Ron Lieber",
+    "book1Desc": "Çocuklara hediye parayı yönetmeyi, paylaşmayı ve tutumlu olmayı öğreten rehber.",
+    "book2Title": "Paranın Psikolojisi",
+    "book2Author": "Morgan Housel",
+    "book2Desc": "Harcama dengesi ve uzun vadeli finansal huzur üzerine zamansız dersler."
   }
 }

@@ -84,7 +84,11 @@
     "facebook": "Facebook",
     "copyLink": "リンクをコピー",
     "copied": "コピーしました！",
-    "twitterText": "今年のお年玉合計：{amount}！{count}人にお年玉を準備しました🧧"
+    "twitterText": "今年のお年玉合計：{amount}！{count}人にお年玉を準備しました🧧",
+    "saveCard": "カード保存",
+    "cardTitle": "お年玉・祝儀予算まとめカード",
+    "cardSub": "対象別相場・世帯バランス・全国比較",
+    "downloadStarted": "1080×1920の予算まとめカードを保存しました！"
   },
   "footer": {
     "back": "DopaBrain ホーム"
@@ -111,5 +115,16 @@
     "faq3A": "一切送信されません。すべての計算はお使いの端末のブラウザ内で100%ローカルに処理され、プライバシーは完全に保護されます。",
     "reviewDate": "監修・編集レビュー: 2026年11月",
     "reviewTeam": "DopaBrain 文化経済学＆家計財務研究チーム"
+  },
+  "curated": {
+    "badge": "推薦図書",
+    "title": "家族のお金教育・家計バランスのおすすめ書籍",
+    "subtitle": "お年玉や贈答をきっかけに、お金との健全な付き合い方を学べる厳選本",
+    "book1Title": "The Opposite of Spoiled（子どものお金教育）",
+    "book1Author": "Ron Lieber",
+    "book1Desc": "お小遣いやお年玉を通じて感謝と計画性を育むための実践ガイド。",
+    "book2Title": "サイコロジー・オブ・マネー",
+    "book2Author": "Morgan Housel",
+    "book2Desc": "見栄ではなく納得感のあるお金の使い方を伝える世界的ベストセラー。"
   }
 }

@@ -84,7 +84,11 @@
     "facebook": "Facebook",
     "copyLink": "Link Kopieren",
     "copied": "Link kopiert!",
-    "twitterText": "Meine Neujahrsgeschenke: {amount}! Geschenke fur {count} Personen vorbereitet"
+    "twitterText": "Meine Neujahrsgeschenke: {amount}! Geschenke fur {count} Personen vorbereitet",
+    "saveCard": "Karte speichern",
+    "cardTitle": "Festtags-Geldgeschenk Übersicht",
+    "cardSub": "Altersrichtwerte · Haushaltsbilanz · Vergleich",
+    "downloadStarted": "1080×1920 Budgetkarte gespeichert!"
   },
   "footer": {
     "back": "DopaBrain Startseite"
@@ -111,5 +115,16 @@
     "faq3A": "Niemals. Sämtliche Kalkulationen laufen zu 100 % lokal in Ihrem Browser.",
     "reviewDate": "Redaktionelle Prüfung: November 2026",
     "reviewTeam": "DopaBrain Kulturökonomie & Haushaltsfinanzen"
+  },
+  "curated": {
+    "badge": "BUCHTIPP",
+    "title": "Empfohlene Bücher für Familienfinanzen",
+    "subtitle": "Ausgewählte Lektüre über Taschengeld-Erziehung und ausgewogene Festtagsbudgets",
+    "book1Title": "The Opposite of Spoiled",
+    "book1Author": "Ron Lieber",
+    "book1Desc": "Praxisnaher Ratgeber, wie Kinder einen klugen Umgang mit Geldgeschenken lernen.",
+    "book2Title": "Über die Psychologie des Geldes",
+    "book2Author": "Morgan Housel",
+    "book2Desc": "Zeitlose Einsichten zu Großzügigkeit, Maßhalten und finanzieller Gelassenheit."
   }
 }

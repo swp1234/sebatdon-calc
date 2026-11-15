@@ -84,7 +84,11 @@
     "facebook": "Facebook",
     "copyLink": "Copy Link",
     "copied": "Link copied!",
-    "twitterText": "My New Year gift money total: {amount}! Prepared gifts for {count} people"
+    "twitterText": "My New Year gift money total: {amount}! Prepared gifts for {count} people",
+    "saveCard": "Save Card",
+    "cardTitle": "Holiday Gift Budget Summary",
+    "cardSub": "Relationship Guide · Household Balance · Benchmarks",
+    "downloadStarted": "Saved 1080×1920 gift budget card!"
   },
   "footer": {
     "back": "DopaBrain Home"
@@ -111,5 +115,16 @@
     "faq3A": "Never. All budgeting algorithms and recipient lists operate 100% locally within your device's web browser. No personal financial data or family names are ever transmitted or saved externally.",
     "reviewDate": "Editorial Review: November 2026",
     "reviewTeam": "DopaBrain Cultural Economics & Household Finance Series"
+  },
+  "curated": {
+    "badge": "BOOK PICK",
+    "title": "Recommended Family Finance & Money Habits Books",
+    "subtitle": "Curated reads on teaching kids generosity, budgeting holiday gifts, and smart money habits",
+    "book1Title": "The Opposite of Spoiled",
+    "book1Author": "Ron Lieber",
+    "book1Desc": "Practical guidance for raising grounded, generous kids who understand holiday gift money.",
+    "book2Title": "The Psychology of Money",
+    "book2Author": "Morgan Housel",
+    "book2Desc": "Timeless lessons on spending judgment, generosity, and long-term household peace of mind."
   }
 }

@@ -84,7 +84,11 @@
     "facebook": "Facebook",
     "copyLink": "링크 복사",
     "copied": "복사되었습니다!",
-    "twitterText": "올해 세뱃돈 총 {amount}! {count}명에게 세뱃돈을 준비했어요 🧧"
+    "twitterText": "올해 세뱃돈 총 {amount}! {count}명에게 세뱃돈을 준비했어요 🧧",
+    "saveCard": "결과 카드 저장",
+    "cardTitle": "명절 세뱃돈 예산 요약 카드",
+    "cardSub": "가족별 예산 · 연령대 기준 · 평균 비교",
+    "downloadStarted": "1080×1920 세뱃돈 요약 카드를 저장했습니다!"
   },
   "footer": {
     "back": "DopaBrain 홈"
@@ -111,5 +115,16 @@
     "faq3A": "전혀 저장되지 않습니다. 모든 수지 분석과 가족 목록 연산은 사용자 브라우저 내부에서 100% 로컬 연산으로 처리되며 외부 서버로 전송되지 않습니다.",
     "reviewDate": "학술 및 편집 검토: 2026년 11월",
     "reviewTeam": "DopaBrain 문화경제학 & 가계재정 연구팀"
+  },
+  "curated": {
+    "badge": "가정 경제 추천",
+    "title": "가족 경제 교육·현명한 소비 추천 도서",
+    "subtitle": "명절 세뱃돈을 계기로 자녀 경제 교육과 가족 재무 습관을 세우는 추천 서적",
+    "book1Title": "스무 살 전에 배워야 할 돈의 가치 (The Opposite of Spoiled)",
+    "book1Author": "Ron Lieber",
+    "book1Desc": "아이에게 용돈과 세뱃돈의 쓰임, 나눔, 절제의 균형을 가르치는 실전 자녀 경제 교육서",
+    "book2Title": "돈의 심리학 (The Psychology of Money)",
+    "book2Author": "Morgan Housel",
+    "book2Desc": "금액의 크기를 넘어 현명한 소비와 장기적 여유를 만드는 태도를 다룬 베스트셀러"
   }
 }
