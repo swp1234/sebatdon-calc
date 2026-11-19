@@ -126,5 +126,11 @@
     "book2Title": "金钱心理学（The Psychology of Money）",
     "book2Author": "Morgan Housel",
     "book2Desc": "讲述如何在人情与理性间平衡开支，获得长期财务从容感。"
+  },
+  "nextStep": {
+    "label": "推荐下一步",
+    "title": "10年后的未来自我原型",
+    "desc": "通过8道题梳理你的10年长期优先级与精力方向。",
+    "cta": "探索未来自我 →"
   }
 }

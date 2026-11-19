@@ -126,5 +126,11 @@
     "book2Title": "The Psychology of Money",
     "book2Author": "Morgan Housel",
     "book2Desc": "Timeless lessons on spending judgment, generosity, and long-term household peace of mind."
+  },
+  "nextStep": {
+    "label": "Recommended Next Step",
+    "title": "10-Year Future Self Archetype",
+    "desc": "Turn today’s priorities into a clear 10-year roadmap of energy and direction in 8 questions.",
+    "cta": "Explore Future Self →"
   }
 }

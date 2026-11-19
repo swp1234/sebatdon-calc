@@ -126,5 +126,11 @@
     "book2Title": "돈의 심리학 (The Psychology of Money)",
     "book2Author": "Morgan Housel",
     "book2Desc": "금액의 크기를 넘어 현명한 소비와 장기적 여유를 만드는 태도를 다룬 베스트셀러"
+  },
+  "nextStep": {
+    "label": "추천 다음 단계",
+    "title": "10년 뒤 미래의 나 유형 테스트",
+    "desc": "오늘의 우선순위를 바탕으로 8문항으로 10년 뒤 가치관과 에너지 방향을 탐색해 보세요.",
+    "cta": "미래의 나 테스트 →"
   }
 }

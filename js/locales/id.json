@@ -126,5 +126,11 @@
     "book2Title": "The Psychology of Money",
     "book2Author": "Morgan Housel",
     "book2Desc": "Pelajaran abadi tentang kebijaksanaan pengeluaran dan ketenangan finansial keluarga."
+  },
+  "nextStep": {
+    "label": "Langkah Berikutnya",
+    "title": "Arketipe Diri Masa Depan",
+    "desc": "Ubah prioritas hari ini menjadi peta arah 10 tahun dalam 8 pertanyaan.",
+    "cta": "Jelajahi Diri Masa Depan →"
   }
 }

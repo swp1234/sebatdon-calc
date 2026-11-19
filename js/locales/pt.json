@@ -126,5 +126,11 @@
     "book2Title": "A Psicologia Financeira",
     "book2Author": "Morgan Housel",
     "book2Desc": "Lições sobre equilíbrio financeiro, generosidade e escolhas conscientes."
+  },
+  "nextStep": {
+    "label": "Próximo passo recomendado",
+    "title": "Arquétipo do Eu Futuro",
+    "desc": "Transforme suas prioridades de hoje em um mapa para 10 anos em 8 perguntas.",
+    "cta": "Explorar Eu Futuro →"
   }
 }
